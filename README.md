@@ -5,7 +5,7 @@ The course **Blok Tech** is given at [**CMDA**][cmda] in 2024 between February a
 
 *   **Course**: [Blok Tech][course] (`2000PTEC23`)
 *   **Coordinator**: [Berry Nieskens][bnieskens] and [Ivo Nijhuis][ivogit]
-*   **Lecturers**:  Michael Kern, [Ivo Nijhuis][ivogit] and [Berry Nieskens][bnieskens] 
+*   **Lecturers**:  [Michael Kern][emkern], [Ivo Nijhuis][ivogit] and [Berry Nieskens][bnieskens] 
 *   **Credit**: 13 ECTS
 *   **Academic year**: 2023-2024
 *   **Period**: Quarter 3 or 4 in the second semester
@@ -61,6 +61,7 @@ We are dedicated to provide you with a learning environment that is _rigorous, r
 [synopsis]: #synopsis
 [ivogit]: https://github.com/ivo-online
 [bnieskens]: http://github.com/bnieskens
+[emkern]: http://github.com/emkern
 
 [author]: http://github.com/bnieskens
 [mit]: license.md#code
