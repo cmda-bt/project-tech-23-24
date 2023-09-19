@@ -27,6 +27,24 @@ The main goal of this course is to build a so called 'Matching website' in a tea
 *   [Brightspace (DLO)][brightspace] — Schedulers, rubrics and grading
   
 
+## Programme
+
+This course is given at [Communication and Multimedia Design][bachelor], a design bachelor focused on interactive digital products and services. CMD is part of the [Faculty of Digital Media and Creative Industries][faculty] at the [Amsterdam University of Applied Sciences][university].
+
+Our curriculum and course material are publicly available on the Block Tech (github.com/cmda-bt) GitHub organization. We follow the global trend to make teaching materials accessible to everyone inspired by the [Open Education Global][oec].
+
+## Conduct
+
+This course has a [Code of Conduct][coc].  Anyone interacting with this repository, organisation, or community is bound by it. Staff and students of the Amsterdam University of Applied Sciences (Hogeschool van Amsterdam) are additionally bound by the [Regulation Undesirable
+Conduct][ruc] ([Regeling Ongewenst Gedrag][rog]).
+
+## Statements
+
+We are dedicated to provide you with a learning environment that is _rigorous, respectful and supportive_ so you can engage in the free exchange of ideas and commit yourself fully to the study of your discipline. To that end we are committed to enforce important AUAS policies. You can find our policies and statements (e.g. accessibility, health, plagiarism) in the `docs` folder.
+
+## License
+
+[MIT][], docs and images are [CC-BY-4.0][].
 
 
 
@@ -35,6 +53,7 @@ The main goal of this course is to build a so called 'Matching website' in a tea
 [faculty]: https://www.amsterdamuas.com/faculty/fdmci/faculty-of-digital-media-and-creative-industries.html
 [cmd]: https://www.cmd-amsterdam.nl/english/
 [cmda]: https://github.com/cmda
+[bachelor]: https://www.cmd-amsterdam.nl/english/
 [minor]: https://cmda.github.io/minor-everything-web/
 [gh]: https://github.com/cmda-bt/blok-tech-23-24
 [teams]: http://teams.microsoft.com
