@@ -16,6 +16,15 @@ Toelichting en oefenopdrachten maken adhv Scrimba voorbeelden
 - Objects for lookups
 
 ## Les 1.2 Github basics
+- Git protocol, source control, flow
+- Account
+- Repository (individueel traject)
+- Wiki
+- Markdown
+- Readme.md
+- License
+- Github in VS Code
+- Commit, commit message
 
 ## Les 1.3 JavaScript herhaling
 Toelichting en oefenopdrachten maken adhv Scrimba voorbeelden
