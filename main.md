@@ -32,10 +32,11 @@ Toelichting en oefenopdrachten maken adhv Scrimba voorbeelden
 - Fetch Web API & lokaal JSON bestand in localhost
 - Async & await
 - json.parse, json.stringify (JSON text omzetten naar JS Object)
-- itereren over JS Object (bijv. forEach)
 
-##JavaScript verbreding
 
-Node & NPM
+
+## JavaScript verbreding
+
+# Node & NPM
 - Init
 
