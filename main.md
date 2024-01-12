@@ -1,5 +1,5 @@
-#Main
-##JavaScript herhaling
+# Main
+## JavaScript herhaling
 Bron: Learn JavaScript (FreeCodeCamp)
 
 Toelichtingen inoefening in de les
