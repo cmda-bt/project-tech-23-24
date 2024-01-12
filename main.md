@@ -1,17 +1,38 @@
-# Main
-## JavaScript herhaling
+# JavaScript herhaling
 Bron: Learn JavaScript (FreeCodeCamp)
 
-Toelichtingen inoefening in de les
+## Les 1.1 JavaScript herhaling
+Toelichting en oefenopdrachten maken adhv Scrimba voorbeelden
 - Declare Variables
 - Arrays
 - Global Scope
 - Local Scope
+- Parameters in functions
 - Return a value from a function
 - Build objects
 - Dot notation
 - Bracket notation
 - Objects for lookups
+
+## Les 1.2 Github basics
+
+## Les 1.3 JavaScript herhaling
+Toelichting en oefenopdrachten maken adhv Scrimba voorbeelden
+- Declare Variables
+- while loops
+- for loops
+- for each
+- var vs let
+- arrow functions
+- template literals
+- import and export
+
+## Les 1.4 JSON 
+- JSON notatie/bestanden
+- Fetch Web API & lokaal JSON bestand in localhost
+- Async & await
+- json.parse, json.stringify (JSON text omzetten naar JS Object)
+- itereren over JS Object (bijv. forEach)
 
 ##JavaScript verbreding
 
