@@ -37,9 +37,3 @@ Toelichting en oefenopdrachten maken adhv Scrimba voorbeelden
 - json.parse, json.stringify (JSON text omzetten naar JS Object)
 
 
-
-## JavaScript verbreding
-
-# Node & NPM
-- Init
-
