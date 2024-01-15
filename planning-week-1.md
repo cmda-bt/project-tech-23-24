@@ -2,8 +2,8 @@
 Bron: Learn JavaScript (FreeCodeCamp)
 
 ## Les 1.1 JavaScript herhaling
-Toelichting project, eindopdracht en planning
-Toelichting en oefenopdrachten maken adhv Scrimba voorbeelden
+1. Toelichting project, eindopdracht en planning
+2. Toelichting en oefenopdrachten maken adhv Scrimba voorbeelden
 - Variabelen (var, let, const)
 - Datatypen
 - Scope
@@ -11,6 +11,7 @@ Toelichting en oefenopdrachten maken adhv Scrimba voorbeelden
 
 
 ## Les 1.2 Github basics
+1. Toelichting samenwerking in teams
 - Git protocol, source control, flow
 - Account
 - Repository (individueel traject)
@@ -31,6 +32,7 @@ Toelichting en oefenopdrachten maken adhv Scrimba voorbeelden
 - import and export
 
 ## Les 1.4 JSON 
+1. Toelichting technische eisen eindopdracht
 - JSON notatie/bestanden
 - Fetch Web API & lokaal JSON bestand in localhost
 - Async & await
