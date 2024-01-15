@@ -4,17 +4,11 @@ Bron: Learn JavaScript (FreeCodeCamp)
 ## Les 1.1 JavaScript herhaling
 Toelichting project, eindopdracht en planning
 Toelichting en oefenopdrachten maken adhv Scrimba voorbeelden
-- Variabelen
+- Variabelen (var, let, const)
 - Datatypen
-- Global Scope
-- Local Scope
+- Scope
 - Arrays
-- Parameters in functions
-- Return a value from a function
-- Build objects
-- Dot notation
-- Bracket notation
-- Objects for lookups
+
 
 ## Les 1.2 Github basics
 - Git protocol, source control, flow
@@ -29,12 +23,10 @@ Toelichting en oefenopdrachten maken adhv Scrimba voorbeelden
 
 ## Les 1.3 JavaScript herhaling
 Toelichting en oefenopdrachten maken adhv Scrimba voorbeelden
-- Declare Variables
-- while loops
-- for loops
-- for each
-- var vs let
-- arrow functions
+- Functies (parameters, return, arrow functies)
+- Objecten (dot & bracket notatie)
+- Objects for lookups
+- Loops
 - template literals
 - import and export
 
