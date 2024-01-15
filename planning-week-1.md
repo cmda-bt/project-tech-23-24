@@ -26,9 +26,7 @@ Bron: Learn JavaScript (FreeCodeCamp)
 Toelichting en oefenopdrachten maken adhv Scrimba voorbeelden
 - Functies (parameters, return, arrow functies)
 - Objecten (dot & bracket notatie)
-- Objects for lookups
 - Loops
-- template literals
 - import and export
 
 ## Les 1.4 JSON 
