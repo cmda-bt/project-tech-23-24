@@ -4,7 +4,8 @@ Bron: Learn JavaScript (FreeCodeCamp)
 ## Les 1.1 JavaScript herhaling
 Toelichting project, eindopdracht en planning
 Toelichting en oefenopdrachten maken adhv Scrimba voorbeelden
-- Declare Variables
+- Variabelen
+- Datatypen
 - Arrays
 - Global Scope
 - Local Scope
