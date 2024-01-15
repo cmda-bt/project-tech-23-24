@@ -6,7 +6,7 @@ Bron: Learn JavaScript (FreeCodeCamp)
 2. Toelichting en oefenopdrachten maken adhv Scrimba voorbeelden
 - Variabelen (var, let, const)
 - Datatypen
-- Scope
+- Logica
 - Arrays
 
 
