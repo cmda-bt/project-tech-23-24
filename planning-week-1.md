@@ -6,9 +6,9 @@ Toelichting project, eindopdracht en planning
 Toelichting en oefenopdrachten maken adhv Scrimba voorbeelden
 - Variabelen
 - Datatypen
-- Arrays
 - Global Scope
 - Local Scope
+- Arrays
 - Parameters in functions
 - Return a value from a function
 - Build objects
