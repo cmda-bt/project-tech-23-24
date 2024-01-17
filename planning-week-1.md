@@ -31,6 +31,7 @@ Toelichting en oefenopdrachten maken adhv Scrimba voorbeelden
 
 ## Les 1.4 JSON 
 1. Toelichting technische eisen eindopdracht
+2. JSON-bestanden
 - JSON notatie/bestanden
 - Fetch Web API & lokaal JSON bestand in localhost
 - Async & await
