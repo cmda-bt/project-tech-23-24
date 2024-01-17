@@ -10,75 +10,73 @@ Bron: Learn JavaScript (FreeCodeCamp)
 - Arrays
 
 
-## Les 1.2 Git & Github basics
-Learn the basics of Git and the social coding platform GitHub.
+## Les 1.2 Git & GitHub basics
+In deze les leren we de basis van Git en het social coding platform GitHub.
 
 ### Aanmaken GitHub Account
-If you haven’t already, [sign up for
-GitHub](https://help.github.com/articles/signing-up-for-a-new-github-account/). Take some time to set up your [GitHub profile](https://github.com/settings/profile).
-Include your name, a profile picture, and a URL to your homepage. Teachers will appreciate it if you upload a representing profile and pick a username that closely resembles your real name. Silly pictures are allowed 🤪
+Als je dit nog niet eerder had gedaan, maak dan [een account aan op GitHub](https://help.github.com/articles/signing-up-for-a-new-github-account/). Neem een moment om je [GitHub profiel](https://github.com/settings/profile) te vullen met je naam, een leuke foto en andere relevante info over jezelf. Het is fijn als de docenten je aan je naam of foto enigszins kunnen herkennen, maar verder is creativiteit hier toegestaan. 
 
-> You’re allowed to stay anonymous online for this course by omitting sensitive information, but a good looking GitHub profile can help you get an internship or job later. 
+> Je mag er zeker voor kiezen online anoniem te blijven door geen persoonlijke gegevens op GitHub te delen, maar een professioneel gevuld GitHub profiel kan je helpen bij het zoeken van een stage of baan later.  
 
 ### Git installeren
 *Windows:*  
-Download and install [Git for Windows](https://gitforwindows.org/). Most default options are fine, but there are a few settings to consider during installation:
-* You can select your own preferred editor (Visual Studio Code or other).
-* We recommend to override the default branch name for new repositories. If you choose 'main' as default branch name, this will align with the default used on GitHub.
-* Finally select 'Git from the command line and also from 3rd party software', so you can use Git commands in PowerShell.
+Download en installeer [Git for Windows](https://gitforwindows.org/). De meeste opties bij het installeren zijn standaard goed ingevuld, maar een paar instellingen verdienen je aandacht:
+* Je kunt je eigen favoriete editor kiezen (Visual Studio Code of een andere).
+* Het handigste is om als default branch name voor nieuwe repositories te kiezen voor 'main'. Vroeger was de default meestal 'master', maar dat heeft nogal ongelukkige associaties met het slavernijverleden. Als je kiest voor 'main' werkt het straks goed samen met GitHub, waar dat ook de standaard naam is.
+* Kies tenslotte voor 'Git from the command line and also from 3rd party software', zodat je zowel vanuit PowerShell als uit bv Visual Studio Code met Git kunt werken.
 
 *MacOS:*  
-Install Git using [Homebrew](https://brew.sh/)
+Installeer Git met [Homebrew](https://brew.sh/)
 
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-then install Git
+Installeer vervolgens Git:
 
 ```sh
 brew install git
 ```
 ### Van start met GIT
-Take a couple of hours to understand how GitHub and Git works. It's not a ton of reading material, these are usually short articles you can read in ~7/8 minutes.
+Verdiep je verder in de basics van Git door onderstaand artikel te lezen en de oefening te maken:
 
-Read chapters [**1.1, 1.2 & 1.3**](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) of the _Pro Git Online Book_.
-Oefening: Github skills intro : https://github.com/skills/introduction-to-github
+* Lees hoofdstuk [**1.1, 1.2 & 1.3**](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) van het _Pro Git Online Book_.
+* Volg de oefening: [Introduction to GitHub](https://github.com/skills/introduction-to-github) op GitHub Skills.
 
 ### Git gebruiken met VS Code
-https://www.youtube.com/watch?v=i_23KUAEtUM
-(afhankelijk van je eigen voorkeuren kun je Git ook gebruiken vanuit de Command Line of met een andere GUI zoals Git Desktop).
+Je kunt Git op verschillende manieren gebruiken, bijvoorbeeld met instructies vanuit de Command Line (Terminal op de Mac, of PowerShell voor Windows), of via een aparte GUI zoals Git Desktop. Veel studenten werken met Visual Studio Code voor het bewerken van hun code en daar is ondersteuning voor Git al ingebouwd. 
 
-### Repository && commit
-Opdracht: maak je eerste repository. Deze bevat je code en de bijbehorende documentatie. Once you feel comfortable with basic GitHub concepts apply them to your own project. Create a repository for your matching-application, add a license and a readme.md (we'll fill it in later) and create a wiki to document your research. Explore some of the features you just read about, click trough the interface and settings of your just created repository.
+* Bekijk de video [Using Git with Visual Studio Code](https://www.youtube.com/watch?v=i_23KUAEtUM) 
 
-After you are done with even the smallest changes, get yourself into the habbit of making _small commits_. It's very common to commit ~5/6 times a day instead of _one large_ commit at the end of each day.
-How to write a commit message: https://cbea.ms/git-commit/
+### Repository & commit
+Opdracht: maak op GitHub een nieuwe repository aan. Hierin komt straks de code van je feature en de bijbehorende documentatie. Maak in je nieuwe repository alvast een readme.md aan, die je later nog kunt invullen. Ook kun je een license toevoegen. Maak in je repo ook alvast een wiki aan, met daarin een eerste pagina. In je wiki ga je je eigen onderzoek tijdens Project Tech vastleggen. Verken de interface van je repository en kijk eens naar de verschillende mogelijkheden en instellingen. Wat zie je terug van de dingen die je hierboven hebt geleerd?
 
-Assignment
-Implement your git strategy. How are you going to write commit messages? Are you going to make branches? Are you going to use issues or projects? Don't forget to document your research and final strategy to your wiki. Start using the command line to version control your matching-application. Just see how you like it and what the benefits are to using Git on the terminal. You can always switch back to version control trough your editor or a GUI.
+Leer jezelf aan om, zodra je een klein stukje code of documentatie hebt geschreven, zo veel mogelijk __kleine commits__ te maken. Het is heel normaal om 5 of 6x per dag een commit te maken in plaats van één grote commit aan het einde van de dag. Het is daarbij ook een goede gewoonte om je commit te beschrijven met een duidelijke commit message.
+
+* Lees het artikel: [How to write a commit message](https://cbea.ms/git-commit/)
+* Denk na over je eigen git strategie: hoe ga je je commit messages opstellen? Ga je gebruik maken van branches en zo ja, op welke manier? Ga je gebruik maken van issues of de project-tools binnen GitHub? Doe zelf onderzoek naar de verschillende mogelijkheden en maak een nieuwe pagina aan op je wiki, waarin je je gekozen Git strategie beschrijft.
 
 ### Wiki
-Document all this research things in your wiki. Teachers will give feedback on your concept in the next lesson. Remember we are not a UCD or NPD course but thinking about your concept for a bit will help you get clear on what you are going to build. So don't make full design documents, writing them down in your wiki is enough.
-
-💡There is a wiki template you can use as a starting point. Click on the wiki tab on this repository (pt-course-21-22). You can clone the wiki to your local machine to use it in your own repository. Cloning the wiki also allows you to easily add images to your wiki. You can create a local images folder and use paths in markdown to reference them.
-
+Alle research die je tijdens Project Tech doet, documenteer je op je eigen wiki. De docenten zullen deze regelmatig bekijken en hier ook feedback op geven. Op dit moment kun je in elk geval al een pagina op je wiki maken, waarin je vertelt over de verschillende alternatieven die je hebt gevonden voor het gebruiken van Git/GitHub en de uiteindelijk door jou gekozen strategie. 
 
 ### Markdown
-Wordt gebruikt om eenvoudige tekstdocumenten toch een beetje op te kunnen maken. Wordt op Github gebruikt voor documentatie, issue, de wiki, code reviews etc.
-•	Wes Bos Mastering Markdown course. https://www.youtube.com/watch?v=Je5w18nn-e8&list=PLu8EoSxDXHP7v7K5nZSMo9XWidbJ_Bns3
-•	Interactive markdown tutorial: https://www.markdowntutorial.com/
-•	Markdown git reference: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+Markdown wordt gebruikt om eenvoudige tekstdocumenten (plain text) toch van een beetje structuur en opmaak te voorzien. Markdown is erg populair onder developers en wordt ook op veel plekken op Github gebruikt: voor het schrijven van documentatie, in je readme, bij het aanmaken van issue, je wiki, bij code reviews en ook in het document wat je nu aan het lezen bent. Gebruik onderstaande resources om meer over Markdown te leren:
+*	[Wes Bos Mastering Markdown course](https://www.youtube.com/watch?v=Je5w18nn-e8&list=PLu8EoSxDXHP7v7K5nZSMo9XWidbJ_Bns3)
+*	[Interactive markdown tutorial](https://www.markdowntutorial.com/)
+*	[Markdown git reference](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ### Readme
-•	Oefening (in de slides): bekijk een aantal populaire repo’s. Wat staat er in de readme’s?
-•	About readmes https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes
-Maak een inhoudsopgave voor je readme (using markdown)
+Opdracht: 
+* Bekijk de readme's van een aantal populaire repo’s. Wat voor onderwerpen worden besproken in deze readme’s en hoe zijn ze opgebouwd?
+* Lees het artikel: [About readmes](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
+* Schrijf in je eigen readme - in je repository - een inhoudsopgave, met daarin alvast de onderwerpen die je tijdens project uiteindelijk verder zult gaan uitwerken. Hierbij gebruik je natuurlijk markdown!
 
-### License / Open Source
-Read the [_Starting an Open Source Project_][os] https://opensource.guide/starting-a-project/ and [_The Legal Side of Open Source_][legal]. https://opensource.guide/legal/
+### License & Open Source
+Lees de onderstaande artikelen:
+* [Starting an Open Source Project](https://opensource.guide/starting-a-project/)
+* [The Legal Side of Open Source](https://opensource.guide/legal/)
 
-Kies een license evt met hulp choosealicence.com en voeg toe aan je repo.
+Opdracht: kies nu een eigen License voor je project en voeg deze toe aan je repo. Gebruik eventueel [choosealicence.com](https://choosealicense.com/) om je te helpen bij je keuze.
 
 ## Les 1.3 JavaScript herhaling
 Toelichting en oefenopdrachten maken adhv Scrimba voorbeelden
