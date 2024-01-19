@@ -26,7 +26,8 @@ Download en installeer [Git for Windows](https://gitforwindows.org/). De meeste 
 * Kies tenslotte voor 'Git from the command line and also from 3rd party software', zodat je zowel vanuit PowerShell als uit bv Visual Studio Code met Git kunt werken.
 
 *MacOS:*  
-Installeer Git met [Homebrew](https://brew.sh/)
+https://git-scm.com/download/mac 
+- Optie binary install kiezen
 
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
