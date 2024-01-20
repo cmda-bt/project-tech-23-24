@@ -16,7 +16,7 @@ The course **Blok Tech** is given at [**CMDA**][cmda] in 2024 between February a
 *   **Entry requirements**: N/A
 
 ## Description
-Blok Tech is an elective course given in quarter 3 and 4 of the second year at CMD. In this course, you are widening and improving the knowledge acquired in the courses Internetstandaarden and Inleiding Programmeren in year one, and Frontend Development in the first semester of year two. After completing this course, you should be well prepared for the [Minor Web Design and Development][minor] in year three (although there are no admission requirements for that minor).  
+Project Tech is an elective course given in quarter 3 and 4 of the second year at CMD. In this course, you are widening and improving the knowledge acquired in the courses Internetstandaarden and Inleiding Programmeren in year one, and Frontend Development in the first semester of year two. After completing this course, you should be well prepared for the [Minor Web Design and Development][minor] in year three (although there are no admission requirements for that minor).  
 
 The main goal of this course is to build a so called 'Matching website' in a team of four students. You will deliver and present a website that allows visitors to create an account, log in and select profiles to their liking, all the while changes to their profile and list of *likes* are being stored in a database. For the latter, you are handed a set of API's to be able to retrieve data from and send data to the server. The main focus of your work (and the grading of it) will be on the front-end: each team member builds a component for the website that will be merged into a fully functioning web application in the end stages of this course. 
 
