@@ -3,9 +3,9 @@
 ## Synopsis
 The course **Blok Tech** is given at [**CMDA**][cmda] in 2024 between February and June.
 
-*   **Course**: [Blok Tech][course] (`2000PTEC23`)
+*   **Course**: [Project: Tech][course] (`2000PTEC23`)
 *   **Coordinator**: [Berry Nieskens][bnieskens] and [Ivo Nijhuis][ivogit]
-*   **Lecturers**:  [Michael Kern][emkern], [Ivo Nijhuis][ivogit] and [Berry Nieskens][bnieskens] 
+*   **Lecturers**:  [Michael Kern][emkern], [Danny de Vries][dandevri], [Ivo Nijhuis][ivogit] and [Berry Nieskens][bnieskens] 
 *   **Credit**: 13 ECTS
 *   **Academic year**: 2023-2024
 *   **Period**: Quarter 3 or 4 in the second semester
