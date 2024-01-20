@@ -1,5 +1,6 @@
-# JavaScript herhaling
-Bron: Learn JavaScript (FreeCodeCamp)
+# Week 1
+
+Naslagwerk voor JavaScript: [Learn JavaScript (FreeCodeCamp)](https://youtu.be/PkZNo7MFNFg)
 
 ## Les 1.1 JavaScript herhaling
 1. Toelichting project, eindopdracht en planning
