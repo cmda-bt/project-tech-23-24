@@ -62,6 +62,7 @@ We are dedicated to provide you with a learning environment that is _rigorous, r
 [ivogit]: https://github.com/ivo-online
 [bnieskens]: http://github.com/bnieskens
 [emkern]: http://github.com/emkern
+[dandevri]: http://github.com/dandevri
 
 [author]: http://github.com/bnieskens
 [mit]: license.md#code
