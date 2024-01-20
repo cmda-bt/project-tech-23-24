@@ -1,4 +1,4 @@
-# blok-tech-23-24
+# project-tech-23-24
 
 ## Synopsis
 The course **Blok Tech** is given at [**CMDA**][cmda] in 2024 between February and June.
