@@ -28,17 +28,8 @@ Download en installeer [Git for Windows](https://gitforwindows.org/). De meeste 
 
 *MacOS:*  
 https://git-scm.com/download/mac 
-- Optie binary install kiezen
+- Optie binary installer kiezen
 
-```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-Installeer vervolgens Git:
-
-```sh
-brew install git
-```
 ### Van start met GIT
 Verdiep je verder in de basics van Git door onderstaand artikel te lezen en de oefening te maken:
 
