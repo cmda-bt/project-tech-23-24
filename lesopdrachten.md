@@ -1,19 +1,6 @@
 # Lesopdrachten
 
-Owner: Berry Nieskens
-
-# JavaScript herhaling
-
-<aside>
-💡 **Concepten uit voorgaande vakken (Inleiding Programmeren)**
-
-[https://scrimba.com/playlist/pZgNL9HV](https://scrimba.com/playlist/pZgNL9HV)
-
-</aside>
-
-## **Lesopdrachten verzameld**
-
-O**pdrachten (Scrimba playlist)**
+## Alle lesopdrachten in Scrimba playlist
 [https://scrimba.com/playlist/pKVWv5BUB](https://scrimba.com/playlist/pKVWv5BUB)
 
 ## **Lesopdrachten per onderdeel**
