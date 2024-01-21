@@ -27,8 +27,8 @@ Download en installeer [Git for Windows](https://gitforwindows.org/). De meeste 
 * Kies tenslotte voor 'Git from the command line and also from 3rd party software', zodat je zowel vanuit PowerShell als uit bv Visual Studio Code met Git kunt werken.
 
 *MacOS:*  
-https://git-scm.com/download/mac 
-- Optie binary installer kiezen
+Open een terminal en geef het commando `git --version` om te controleren of en welke versie van Git is geïnstalleerd. Apple levert in MacOS namelijk een eigen versie van het Git-protocol. Dit is niet de meest recente versie maar je gaat er alles mee kunnen doen wat vereist is voor dit project. 
+Wil je toch de meest recente versie installeren, dan vind je op de website van [Atlassian](https://www.atlassian.com/git/tutorials/install-git) een uitgebreide tutorial.
 
 ### Van start met GIT
 Verdiep je verder in de basics van Git door onderstaand artikel te lezen en de oefening te maken:
