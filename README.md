@@ -15,23 +15,28 @@ The course **Blok Tech** is given at [**CMDA**][cmda] in 2024 between February a
 *   **Language**: Dutch instructions and English resources
 *   **Entry requirements**: N/A
 
-## Description
-Project Tech is an elective course given in quarter 3 and 4 of the second year at CMD. In this course, you are widening and improving the knowledge acquired in the courses Internetstandaarden and Inleiding Programmeren in year one, and Frontend Development in the first semester of year two. After completing this course, you should be well prepared for the [Minor Web Design and Development][minor] in year three (although there are no admission requirements for that minor).  
+## Beschrijving
+Project Tech is een keuzevak in het derde en vierde blok van het tweede schooljaar bij CMD. In dit project verbeter en verbreed je jouw kennis van web development zoals dat ook al aan bod 
+kwam in de vakken Internetstandaarden en Inleiding Programmeren in leerjaar 1, en Frontend Development in leerjaar 2. Met de kennis en vaardigheden uit dit project ben je onder meer goed voorbereid op de Minor Web Design and Development in jaar drie. Er zijn overigens geen harde ingangseisen op dit gebied voor die minor.
 
-The main goal of this course is to build a so called 'Matching website' in a team of four students. You will deliver and present a website that allows visitors to create an account, log in and select profiles to their liking, all the while changes to their profile and list of *likes* are being stored in a database. For the latter, you are handed a set of API's to be able to retrieve data from and send data to the server. The main focus of your work (and the grading of it) will be on the front-end: each team member builds a component for the website that will be merged into a fully functioning web application in the end stages of this course. 
+De eindopdracht van dit project gaat over het programmeren van een zogenaamde 'matching website' in een team van vier studenten. Je levert een website op waar bezoekers content kunnen selecteren, filteren en/of sorteren. Alle gegevens worden opgehaald uit en opgeslagen in een database. Hiervoor maak je gebruik van API's en/of een backend met NodeJS en MongoDB. 
+
+De focus van dit project ligt, wat betreft technische vaardigheden, op de *front-end.* Elk teamlid bouwt een component van de website dat, samengevoegd met de andere componenten, een volledig en goed werkende applicatie oplevert.
+
+Er worden gedurende het project twee verbredingstrajecten aangeboden. Studenten die geïnteresseerd zijn in het zelf bouwen van de back-end krijgen extra les over NodeJS en MongoDB. Wie meer wil weten over het gebruiken van CSS-animaties in de front-end kan daar extra lessen in volgen.
 
 ## Communication
 
-*   [GitHub][gh] — Main source of information, slides, assignments and more
-*   [Microsoft Teams][teams] — General chatter and Q&A
-*   [Brightspace (DLO)][brightspace] — Schedulers, rubrics and grading
+*   [GitHub][gh] — Bron voor planning, lesopdrachten en presentaties
+*   [Microsoft Teams][teams] — Contact tussen docenten en studenten
+*   [Brightspace (DLO)][brightspace] — Rubrics, inleveren van opdrachten, eindbeoordeling
   
 
-## Programme
+## De Opleiding
 
-This course is given at [Communication and Multimedia Design][bachelor], a design bachelor focused on interactive digital products and services. CMD is part of the [Faculty of Digital Media and Creative Industries][faculty] at the [Amsterdam University of Applied Sciences][university].
+Dit project wordt gegeven bij [Communication and Multimedia Design][bachelor], een design bachelor met de focus op digitaal interactief design van producten en diensten. CMD is onderdeel van de [Faculteit Digitale Media en Creatieve Industrie][faculty] aan de [Hogeschool van Amsterdam][university].
 
-Our curriculum and course material are publicly available on the Block Tech (github.com/cmda-bt) GitHub organization. We follow the global trend to make teaching materials accessible to everyone inspired by the [Open Education Global][oec].
+Geïnspireerd door [Open Education Global][oec] maken we het programma en de lesmaterialen van Project Tech openbaar beschikbaar op [cmda-bt](github.com/cmda-bt). 
 
 ## Conduct
 
