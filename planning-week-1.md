@@ -4,8 +4,8 @@ Naslagwerk voor JavaScript: [Learn JavaScript (FreeCodeCamp)](https://youtu.be/P
 
 ## Les 1.1 JavaScript herhaling
 1. Toelichting project, eindopdracht en planning
-2. Toelichting en oefenopdrachten maken adhv Scrimba voorbeelden
-- Variabelen (var, let, const)
+2. Toelichting van concepten en oefenopdrachten maken (Scrimba)
+- Variabelen
 - Datatypen
 - Logica
 - Arrays
