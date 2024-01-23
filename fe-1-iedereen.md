@@ -1,4 +1,4 @@
-# FE Week 1 (alle studenten)
+# FE 1 (alle studenten)
 De volgende links bevatten de benodigde bronnen en oefeningen om je de vaardigheden eigen te maken.
 De oefeningen zijn stukjes code op codepen welke je zelf moet afmaken. Ga niet aan de slag in de codepen van de link maar FORK je eigen kopie er van en bewerk die.
 
