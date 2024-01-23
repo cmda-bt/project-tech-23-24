@@ -1,7 +1,7 @@
 # project-tech-23-24
 
 ## Synopsis
-The course **Blok Tech** is given at [**CMDA**][cmda] in 2024 between February and June.
+The course **Project Tech** is given at [**CMDA**][cmda] in 2024 between February and June.
 
 *   **Course**: [Project: Tech][course] (`2000PTEC23`)
 *   **Coordinator**: [Berry Nieskens][bnieskens] and [Ivo Nijhuis][ivogit]
