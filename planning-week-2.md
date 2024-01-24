@@ -1,9 +1,9 @@
 # Week 2
 
 ## Les 2.1 
-### 1. Verdieping Frontend
+### A. Verdieping Frontend
 
-### 1. Verdieping Backend
+### B. Verdieping Backend
 
 ## Les 2.2 
 
