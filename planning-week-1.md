@@ -98,4 +98,7 @@ Opdracht: kies nu een eigen License voor je project en voeg deze toe aan je repo
 - Fetch Web API & lokaal JSON bestand
 - Promise afhandelen met .then()
 - Fetch in Async functie met await
+  
+2. Lesopdrachten maken en bespreken
+  - [PT 009 Fetch een .json-bestand in een asynchrone functie](https://scrimba.com/scrim/coff9492c9c05f90c2748ebaa)
 
