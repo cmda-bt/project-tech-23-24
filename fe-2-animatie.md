@@ -1,11 +1,12 @@
 
+
 # FE  2 (verdieping)
 
 ### Voorbereiding
 
 Als voorbereiding kun je de animatie basics weer even opfrissen:
 
--   maken:  [**Oefeningen - Animaties recap**]pdfpdfpdf) (pdf, 5MB)
+-   maken:  **[Oefeningen - Animaties recap](Oefeningen%20Animaties%20recap.pdf)** (pdf, 5MB)
 -   bekijken:  **[CSS Animation in 100 Seconds](https://youtu.be/HZHHBwzmJLk)**  (YouTube, 2min)
 -   bekijken:  **[An introduction to CSS custom properties](https://youtu.be/PHO6TBq_auI)**  (YouTube, 12min)
 
