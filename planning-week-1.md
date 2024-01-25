@@ -56,6 +56,11 @@ Leer jezelf aan om, zodra je een klein stukje code of documentatie hebt geschrev
 * Lees het artikel: [How to write a commit message](https://cbea.ms/git-commit/)
 * Denk na over je eigen git strategie: hoe ga je je commit messages opstellen? Ga je gebruik maken van branches en zo ja, op welke manier? Ga je gebruik maken van issues of de project-tools binnen GitHub? Doe zelf onderzoek naar de verschillende mogelijkheden en maak een nieuwe pagina aan op je wiki, waarin je je gekozen Git strategie beschrijft.
 
+### .gitignore
+Niet alle bestanden die op je computer staan, horen ook in je repo thuis. Denk aan systeembestanden (zoals de .DS_Store files die een Mac automatisch overal aanmaakt), logfiles, tijdelijke bestanden of bestanden met gevoelige informatie. In een [.gitignore](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files) bestand kun je aangeven welke files en folders niet op GitHub moeten komen. 
+
+Opdracht: maak in je eigen repository een .gitignore file aan en zet hierin de te negeren files en folders. 
+
 ### Wiki
 Alle research die je tijdens Project Tech doet, documenteer je op je eigen wiki. De docenten zullen deze regelmatig bekijken en hier ook feedback op geven. Op dit moment kun je in elk geval al een pagina op je wiki maken, waarin je vertelt over de verschillende alternatieven die je hebt gevonden voor het gebruiken van Git/GitHub en de uiteindelijk door jou gekozen strategie. 
 
