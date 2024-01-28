@@ -23,7 +23,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 *MacOS:*  
 Apple heeft ook een ingebouwde command line interface. Zoek naar `terminal` met **spotlight** of kijk in je applications folder. Ook op Mac voer je in de Terminals standaard commando's uit met de rechten van een gewone gebruiker. De meeste dingen kun je hiermee doen, met minder risico belangrijke zaken kapot te maken. Voor sommige instellingen of het installeren van software heb je soms administrator rechten nodig. Je kunt dan `sudo` voor een commando zetten. Stel dat je geen toegang hebt tot een bepaalde directory, en `ls` geeft daarom een foutmelding, dan zou `sudo ls` wel kunnen werken.
 
-> 💡 Op Macs met MacOS Catalina (oof nieuwer) is de standaard shell `zsh`, daarvoor was het `bash`. Als je `bash` hebt als standaard instelling, raden we aan dat aan te passen volgens de instructie in dit [Apple support article](https://support.apple.com/en-us/HT208050).
+> 💡 Op Macs met MacOS Catalina (of nieuwer) is de standaard shell `zsh`, daarvoor was het `bash`. Als je `bash` hebt als standaard instelling, raden we aan dat aan te passen volgens de instructie in dit [Apple support article](https://support.apple.com/en-us/HT208050).
 
 Veel mensen vinden het ook fijn de [Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal) direct vanuit VSCode te gebruiken.
 
@@ -48,7 +48,7 @@ Bekijk onderstaande video's:
 
 Installeer nu op je eigen computer Node (inclusief NPM)
 
-### Node - installeren op Mac
+#### Node - installeren op Mac
 
 Open je **terminal**, en installeer [nvm](https://github.com/creationix/nvm) als volgt:
 
@@ -76,11 +76,11 @@ node -v # Should print v18.12.1 (or a higher version)
 npm -v # Something like 9.2.0 (or a higher version)
 ```
 
-[🎦 _Watch a video_ on how to install Node on MacOS.](https://www.youtube.com/watch?v=EQWyWQhphGw)
+[🎦 Video over het intalleren van Node op MacOS](https://www.youtube.com/watch?v=EQWyWQhphGw)
 
 > Als je in plaats van bovenstaande instructies gebruik maakt van de Node [installer](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), kun je geconfronteerd worden met een [`eaccess`](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally) probleem. Om die reden raden wij bovenstaande werkwijze met nvm aan. De node installer installeert npm in een directory met local permissions, wat problemen zal geven als je npm packages global wilt gebruiken.
 
-### Node - installaren op Windows
+#### Node - installaren op Windows
 Er is geen NVM voor Windows. We gaan daarom naar de [node.js website](https://nodejs.org/) om node.js voor Windows te downloaden en installeren. Kies de LTS (Long-Term Support) versie, dit is de nieuwste stabiele versie. 
 
 Node en npm zijn nu geinstalleerd. Dit kun je als volgt in PowerShell controleren:
@@ -91,16 +91,26 @@ npm -v # Something like 8.19.0 (or a higher version)
 ```
 
 ### Node modules
-Kijk eens rond op de [npm registry](https://www.npmjs.com/) of je packages kunt vinden, die handig zouden kunnen zijn voor je (backend) project. Daarnaast kun je kijken of je handige 'developer dependencies' on NPM kunt vinden, die straks je leven als developer makkelijk kunnen maken. Een goed voorbeeld is [nodemon](https://nodemon.io/), die automatisch je server herstart als je je code hebt aangepast. Super handig.
+Kijk eens rond op de [npm registry](https://www.npmjs.com/) of je packages kunt vinden, die handig zouden kunnen zijn voor je (backend) project. Daarnaast kun je kijken of je handige 'developer dependencies' op NPM kunt vinden, die straks je leven als developer makkelijk kunnen maken. Een goed voorbeeld is [nodemon](https://nodemon.io/), die automatisch je server herstart als je je code hebt aangepast. Super handig, dus dit is een goed moment om die vast te installeren.
 
-### Opstarten API
+### Installeren en uitproberen API
 Voor dit project stellen wij een API beschikbaar. Met deze API kun je data lezen uit een database of opslaan in die database, zonder je zorgen te hoeven maken over de achterliggende techniek. 
 * Als je kiest voor de front-end specialisatie, kun je deze API vanuit je code in de browser aanroepen om dynamisch data op te halen of op te slaan.
 * Als je kiest voor de back-end specialisatie, vervang je uiteindelijk deze API door een zelfgeschreven backend.
 
 In beide gevallen is het aan de praat krijgen van de API een mooie oefening om de basis van Node.js en NPM onder de knie te krijgen. 
 
-Stap voor stap instructies toevoegen.
+Je kunt onze [API vinden op GitHub](https://github.com/ivo-online/database_api). Volg daar de instructies in de README.md om een kopie te maken van deze API op je eigen computer. Je moet hierbij een aantal persoonlijke toegangsgegevens invullen in een eigen .env file. De benodigde waardes krijg je van je docenten.
+
+Zodra je de API succesvol hebt draaien in je terminal, kun je proberen een aantal HTTP requests naar de API te sturen om te kijken wat er gebeurd. De mogelijke requests zijn gedocumenteerd in de [README.md](https://github.com/ivo-online/database_api/blob/main/README.md) van de API. 
+
+Vanuit frontend JavaScript code, die draait in de browser, kun je straks gebruik maken van [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) om requests naar de API te sturen. Om, zonder te coderen, al vast een beetje gevoel te krijgen hoe de API werkt, kun je ook handmatig HTTP requests sturen naar de API en de responses zien met een geschikte browser plugin zoals [Tabbed PostMan](https://chromewebstore.google.com/detail/tabbed-postman-rest-clien/coohjcphdfgbiolnekdpbcijmhambjff) voor Chrome.
+
+Oefening: stuur HTTP requests naar de API om het volgende te doen:
+* Vul je database met testdata
+* Vraag een overzicht op van alle zojuist aangemaakte testdata
+* Vraag 1 specifiek object op uit de aangemaakte testdata, bijvoorbeeld iemand met een bepaald beroep.
+* Update een object uit de testdata, bijvoorbeeld door een beroep te veranderen in een ander beroep.
 
 ### Concept
 Denk na over de matching site die je wilt gaan bouwen en uit welke afzonderlijke onderdelen deze kan bestaan.
