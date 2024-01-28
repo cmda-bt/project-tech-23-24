@@ -46,10 +46,52 @@ Bekijk onderstaande video's:
 * [NPM](https://www.youtube.com/watch?v=X8D5Ijpp824)
 * [Live demo NPM en packages](https://www.youtube.com/watch?v=shSB9BbK1gU).
 
-Installeer zelf node.js (incl npm)
-Zelf modules zoeken op npm registry https://www.npmjs.com/
+Installeer nu op je eigen computer Node (inclusief NPM)
 
-Improve the developer experience of your application. Look for so called 'developer dependencies' on NPM. nodemon https://nodemon.io/ is a good example, it will monitor for any changes in your source and automatically restart your server. Perfect for development.
+### Node - installeren op Mac
+
+Open je **terminal**, en installeer [nvm](https://github.com/creationix/nvm) als volgt:
+
+```sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+```
+
+Controleer of `nvm` goed is geinstalleerd:
+```sh
+nvm --version # Should print a version number
+```
+
+> Zie je de foutmelding `nvm command not found`? Dan is NVM niet goed geïnstalleerd. Lees  [troubleshouting section on nvm](https://github.com/nvm-sh/nvm#troubleshooting-on-macos) zorgvuldig om dit op te lossen. 
+
+**Sluit je terminal af en start deze opnieuw**. Type vervolgens:
+
+```sh
+nvm install stable
+```
+
+Node en NPM zijn nu geïnstalleerd. Check dit met:
+
+```sh
+node -v # Should print v18.12.1 (or a higher version)
+npm -v # Something like 9.2.0 (or a higher version)
+```
+
+[🎦 _Watch a video_ on how to install Node on MacOS.](https://www.youtube.com/watch?v=EQWyWQhphGw)
+
+> Als je in plaats van bovenstaande instructies gebruik maakt van de Node [installer](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), kun je geconfronteerd worden met een [`eaccess`](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally) probleem. Om die reden raden wij bovenstaande werkwijze met nvm aan. De node installer installeert npm in een directory met local permissions, wat problemen zal geven als je npm packages global wilt gebruiken.
+
+### Node - installaren op Windows
+Er is geen NVM voor Windows. We gaan daarom naar de [node.js website](https://nodejs.org/) om node.js voor Windows te downloaden en installeren. Kies de LTS (Long-Term Support) versie, dit is de nieuwste stabiele versie. 
+
+Node en npm zijn nu geinstalleerd. Dit kun je als volgt in PowerShell controleren:
+
+```sh
+node -v # Should print 18.13.0 (or a higher version)
+npm -v # Something like 8.19.0 (or a higher version)
+```
+
+### Node modules
+Kijk eens rond op de [npm registry](https://www.npmjs.com/) of je packages kunt vinden, die handig zouden kunnen zijn voor je (backend) project. Daarnaast kun je kijken of je handige 'developer dependencies' on NPM kunt vinden, die straks je leven als developer makkelijk kunnen maken. Een goed voorbeeld is [nodemon](https://nodemon.io/), die automatisch je server herstart als je je code hebt aangepast. Super handig.
 
 ### Opstarten API
 Voor dit project stellen wij een API beschikbaar. Met deze API kun je data lezen uit een database of opslaan in die database, zonder je zorgen te hoeven maken over de achterliggende techniek. 
