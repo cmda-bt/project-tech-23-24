@@ -6,40 +6,45 @@ In deze les leren we meer over de techniek die komt kijken bij het opzetten van 
 Na al deze theorie is het ook tijd een begin te maken met het eindproduct. Je brainstormt over het concept voor de matching-app die je wilt bouwen en documenteert dit in je wiki.
 
 ### Command line
-Take a couple of hours to understand the basics of the Terminal. Troughout the course we'll be doing a ton with the terminal so it's good to understand how to navigate it. 
+Gedurende dit blok zullen we regelmatig gebruik maken van de Terminal. Neem een moment om deze op je computer gereed te maken en de basis te leren.
 
 *Windows:*  
-Modern Windows versions provide Windows PowerShell as a command line interface. Just type 'PowerShell' in the searchbar in your start-menu or taskbar. By default you will start the Powershell as a normal user, but you can also choose to run it as an adminstrator. For everyday use, we recommend to run it as a normal user. You will have less rights to change things, which also means less risk of accidentally breaking things. For the few times you do need more permissions, you can run Powershell as an administrator. On older Windows machines you can also use the Command Prompt, which is less sophisticated. 
+Nieuwe versies van Windows gebruiken PowerShell als command line interface. Type 'PowerShell' in de zoekbalk van je start-menu of taakbalk. Je start PowerShell standaard als gewone gebruiker, maar je kunt er ook voor kiezen het te starten als administrator. Normaal gesproken is het verstandig PowerShell uit te voeren als gewone gebruiker. Je hebt dan iets minder rechten, maar ook minder kans per ongeluk dingen kaport te maken.
 
-The default security settings for PowerShell prevent you from running any scripts without permission. You may run into this problem later on, for example when you try to start nodemon and it doesn't work. You can check your current settings in PowerShell with the command:
+Standaard heeft PowerShell een aantal beveiligingsinstellingen, waarbij het bijvoorbeeld niet mogelijk is scripts te runnen zonder permissie. Dit kan later in dit blok een probleem worden, als je bijvoorbeeld nodemon wilt starten en het werkt niet. Je kunt je huidige instellingen controleren in PowerShell met het commando: 
 ```sh
 Get-ExecutionPolicy -List
 ```
-and if needed, relax the security settings a bit using the command:
+en deze eventueel iets versoepelen met het commando:
 ```sh
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
 *MacOS:*  
-Apple already has a terminal emulator by default to provide a command line interface. Just search for `terminal` in **spotlight** or find it in your applications folder. There are other command-line interfaces out there you can download that add more features. [Hyper](https://hyper.is/) and [iTerm](https://iterm2.com/) are very popular choices.
+Apple heeft ook een ingebouwde command line interface. Zoek naar `terminal` met **spotlight** of kijk in je applications folder. Ook op Mac voer je in de Terminals standaard commando's uit met de rechten van een gewone gebruiker. De meeste dingen kun je hiermee doen, met minder risico belangrijke zaken kapot te maken. Voor sommige instellingen of het installeren van software heb je soms administrator rechten nodig. Je kunt dan `sudo` voor een commando zetten. Stel dat je geen toegang hebt tot een bepaalde directory, en `ls` geeft daarom een foutmelding, dan zou `sudo ls` wel kunnen werken.
 
-> 💡 If you have a Mac running MacOS Catalina (or above) the current default shell is `zsh`, previously this was `bash`. If `bash` is still the default on your machine we highly suggest you switch your default shell to `zsh` [using this Apple support article](https://support.apple.com/en-us/HT208050).
+> 💡 Op Macs met MacOS Catalina (oof nieuwer) is de standaard shell `zsh`, daarvoor was het `bash`. Als je `bash` hebt als standaard instelling, raden we aan dat aan te passen volgens de instructie in dit [Apple support article](https://support.apple.com/en-us/HT208050).
 
-Many people also like to use the [Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal) directly in your code editor like in VSCode.
+Veel mensen vinden het ook fijn de [Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal) direct vanuit VSCode te gebruiken.
 
-1. Follow [A Designer’s Guide to the Terminal](https://react.design/terminal) *(Mac)* or read [Working with files and folders](https://learn.microsoft.com/en-us/powershell/scripting/samples/working-with-files-and-folders?view=powershell-7.3) *(Windows)*
-2. Watch the [Command Line Basics video](https://www.youtube.com/watch?v=DP218aBHm1Q) of Wes Bos his CLI course *(Mac)* or [Powershell for Beginners](https://www.youtube.com/watch?v=Jfvg3CS1X3A) *(Windows)*
+Opdracht:
+* Voor Windows gebruikers: Lees [Working with files and folders](https://learn.microsoft.com/en-us/powershell/scripting/samples/working-with-files-and-folders?view=powershell-7.3) en kijk de video: [Powershell for Beginners](https://www.youtube.com/watch?v=Jfvg3CS1X3A)
+* Voor Mac gebruikers: volg [A Designer’s Guide to the Terminal](https://react.design/terminal) en kijk de video: [Command Line Basics video](https://www.youtube.com/watch?v=DP218aBHm1Q) van CLI cursus door Wes Bos
 
-Toevoegen: hidden files (.dotfiles) en sudo
-
-
-
-beetje oefenen, ga naar een directory, maak een file, copieer een file, verwijder het etc.
+Oefening: maak de volgende opdrachten om de basis van de command line onder de knie te krijgen
+* Zoek de folder met je documenten voor Project Tech in je verkenner of finder. Open nu een terminal venster en zoek daar dezelfde folder op. Tip: gebruik `cd` en `pwd`
+* Vraag een lijst op van de bestanden in deze folder. Tip: gebruik `ls`
+* Maak een kopie van een van deze bestanden.
+* Maak in de folder een nieuwe lege directory aan
+* Verplaats de kopie die je net gemaakt had, naar de nieuwe directory
+* Verwijder de nieuwe directory inclusief het gekopieerde bestand
+* Kijk of je in de folder van je project zogenaamde `dotfiles` kunt vinden. Dit zijn bestanden of folders waarvan de filenaam begint met een . (punt), zoals bijvoorbeeld `.gitignore`, `.DS_Store`, `.git` of `.env`. Dit zijn bestanden met systeeminstellingen, die standaard verborgen zijn (niet getoond worden). Op de Mac kun je ze laten zien met het commando `ls -a` en op Windows met `ls -hidden`. Op Windows is het ook handig in de verkenner onder het menu Weergeven de verborgen items aan te vinken.
 
 ### Node.js en NPM
-[🎦 _Watch a video_ about the browser versus Node.js.](https://www.youtube.com/watch?v=ZpiHUOM_Y-0)
-[🎦 _Watch a video_ about NPM.](https://www.youtube.com/watch?v=X8D5Ijpp824)
-Watch a live demo about [NPM and packages](https://www.youtube.com/watch?v=shSB9BbK1gU).
+Bekijk onderstaande video's:
+* [De browser versus Node.js](https://www.youtube.com/watch?v=ZpiHUOM_Y-0)
+* [NPM](https://www.youtube.com/watch?v=X8D5Ijpp824)
+* [Live demo NPM en packages](https://www.youtube.com/watch?v=shSB9BbK1gU).
 
 Installeer zelf node.js (incl npm)
 Zelf modules zoeken op npm registry https://www.npmjs.com/
@@ -56,17 +61,15 @@ In beide gevallen is het aan de praat krijgen van de API een mooie oefening om d
 Stap voor stap instructies toevoegen.
 
 ### Concept
-Think about what feature you are going to work on for the individual part of this project. 
+Denk na over de matching site die je wilt gaan bouwen en uit welke afzonderlijke onderdelen deze kan bestaan.
 
-1. Write ~5 [Job Stories](https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27) (to generate ideas) and pick one to continue working on.
-2. 'Split up' your Job Story into concrete requirements (taks) by making a [requirements list](https://cmdmethods.nl/cards/stepping-stones/requirements-list)
-3. Think about your target audience. It always helps to have one core audience you will be designing for. For example; sport fanatics to match people based on sports, netflixers to match people based on what series they want to watch etc. Do some research about your audience and add it to your wiki: what do you know about these people, what are their wishes and challenges? Can you find more information about them online? Can you talk to a few members of your target audience to ask them what they think is important?
-4. Think about your concept. Again, do some research and add it to your wiki. What are existing similar concepts that are already out there? Look into a few. What do they do really well that you can learn from, and where do you feel you really can do better than them?
-5. Create a small [wireframe (napkin quality)](https://cmdmethods.nl/cards/stepping-stones/design-specification) to roughly sketch out how your interface should look.
+1. Denk na over een concept voor de matching site. Wie ga je matchen met wie of wat? Kun je een creatieve manier bedenken, om matches tot stand te brengen? Brainstorm over een aantal mogelijkheden. Door welke bestaande concepten kun je je laten inspireren? Documenteer je onderzoek op je wiki en kies vervolgens een concept uit om verder uit te werken.
+2. Denk na over je doelgroep. Wat zijn dit voor mensen, wat vinden ze leuk en wat voor functionaliteit verwachten ze? Wat zijn hun wensen en uitdagingen? Misschien kun je een aantal mensen interviewen of online informatie vinden over deze groep. Documenteer je onderzoek wederom op de wiki.
+3. Beschrijf op je wiki een aantal (ongeveer 5) [Job Stories](https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27) op om ideeën te genereren over de functionaliteit die nodig is op je matching site. Maak uit de gevonden job stories een keuze voor een functionaliteit die jij verder uit gaat werken.
+4. Werk de gekozen job story op je wiki verder uit door hier een [requirements list](https://cmdmethods.nl/cards/stepping-stones/requirements-list) voor op te stellen.
+5. Schets ten slotte één of meer lo-fi [wireframes](https://cmdmethods.nl/cards/stepping-stones/design-specification) om een idee te krijgen van het gebruikers interface.
 
-Document all this research things in your wiki. Teachers will give feedback on your concept in the next lesson. Remember we are not a UCD or NPD course but thinking about your concept for a bit will help you get clear on what you are going to build. So don't make full design documents, writing them down in your wiki is enough.
-
-
+Leg al het bovenstaande vast op je wiki, zodat we je hier ook feedback op kunnen geven. De focus van dit project is Tech, dus het is niet nodig een volledig design uit te werken. Voor nu is het vooral belangrijk om meer duidelijkheid te krijgen over wat je de komende weken gaat maken.
 
 ## Les 2.2 Frontend basis
 
