@@ -5,6 +5,9 @@ In deze les leren we meer over de techniek die komt kijken bij het opzetten van 
 
 Na al deze theorie is het ook tijd een begin te maken met het eindproduct. Je brainstormt over het concept voor de matching-app die je wilt bouwen en documenteert dit in je wiki.
 
+### HTTP request en response
+Bekijk de [video over HTTP](https://www.youtube.com/watch?v=IS3HRyUXJX0) requests en responses.
+
 ### Command line
 Gedurende dit blok zullen we regelmatig gebruik maken van de Terminal. Neem een moment om deze op je computer gereed te maken en de basis te leren.
 
@@ -106,11 +109,13 @@ Zodra je de API succesvol hebt draaien in je terminal, kun je proberen een aanta
 
 Vanuit frontend JavaScript code, die draait in de browser, kun je straks gebruik maken van [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) om requests naar de API te sturen. Om, zonder te coderen, al vast een beetje gevoel te krijgen hoe de API werkt, kun je ook handmatig HTTP requests sturen naar de API en de responses zien met een geschikte browser plugin zoals [Tabbed PostMan](https://chromewebstore.google.com/detail/tabbed-postman-rest-clien/coohjcphdfgbiolnekdpbcijmhambjff) voor Chrome.
 
+Voor nu gaan we werken in een gezamenlijke database waarin al wat testdata aanwezig is. Omdat we hier met z'n allen in werken, kan het zijn dat je soms data ziet veranderen of verdwijnen, omdat een andere student iets gewijzigd heeft. Later in het project krijgt elk team toegang tot een eigen database om in te werken.
+
 Oefening: stuur HTTP requests naar de API om het volgende te doen:
-* Vul je database met testdata
-* Vraag een overzicht op van alle zojuist aangemaakte testdata
+* Vraag een overzicht op van alle testdata die in de database aanwezig is.
 * Vraag 1 specifiek object op uit de aangemaakte testdata, bijvoorbeeld iemand met een bepaald beroep.
 * Update een object uit de testdata, bijvoorbeeld door een beroep te veranderen in een ander beroep.
+* Voeg zelf een object toe aan de database. Dit hoeft geen test-object te zijn. Maak bijvoorbeeld een huis, of een maaltijd, of een student, of een ....
 
 ### Concept
 Denk na over de matching site die je wilt gaan bouwen en uit welke afzonderlijke onderdelen deze kan bestaan.
