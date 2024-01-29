@@ -5,7 +5,7 @@
 Deze video bevat een uitgebreide toelichting en voorbeeldcodes van basale programmeerconcepten in JavaScript en kan gebruikt worden om de kennis uit Inleiding Programmeren op te halen. 
 
 ## Kennisbank
-Alle theorie die in de les wordt behandeld, de concepten en voorbeeldcodes vind je in de openbaar gedeelde [Notion pagina](https://bnieskens.notion.site/Kennisbank-6aacb7846e5a4cd790950905e1adedde?pvs=4). 
+Een overzicht van een deel van de theorie die in de les wordt behandeld, de concepten en voorbeeldcodes vind je in de openbaar gedeelde [Notion pagina](https://bnieskens.notion.site/Kennisbank-6aacb7846e5a4cd790950905e1adedde?pvs=4). 
 
 
 ## Lesopdrachten

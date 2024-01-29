@@ -1,14 +1,12 @@
-# Week 2
-
-## Les 2.1 Backend basis
+# Les 2.1 Backend basis
 In deze les leren we meer over de techniek die komt kijken bij het opzetten van een dynamisch web-project: hoe werkt precies HTTP, hoe kun je de command line gebruiken voor geavanceerde instructies en wat is het verschil tussen een site met functionaliteit in de frontend en één met functionaliteit in de backend? Ook leren we meer over Node.js en NPM.
 
 Na al deze theorie is het ook tijd een begin te maken met het eindproduct. Je brainstormt over het concept voor de matching-app die je wilt bouwen en documenteert dit in je wiki.
 
-### HTTP request en response
+## 1. HTTP request en response
 Bekijk de [video over HTTP](https://www.youtube.com/watch?v=IS3HRyUXJX0) requests en responses.
 
-### Command line
+## 2. Command line
 Gedurende dit blok zullen we regelmatig gebruik maken van de Terminal. Neem een moment om deze op je computer gereed te maken en de basis te leren.
 
 *Windows:*  
@@ -43,7 +41,7 @@ Oefening: maak de volgende opdrachten om de basis van de command line onder de k
 * Verwijder de nieuwe directory inclusief het gekopieerde bestand
 * Kijk of je in de folder van je project zogenaamde `dotfiles` kunt vinden. Dit zijn bestanden of folders waarvan de filenaam begint met een . (punt), zoals bijvoorbeeld `.gitignore`, `.DS_Store`, `.git` of `.env`. Dit zijn bestanden met systeeminstellingen, die standaard verborgen zijn (niet getoond worden). Op de Mac kun je ze laten zien met het commando `ls -a` en op Windows met `ls -hidden`. Op Windows is het ook handig in de verkenner onder het menu Weergeven de verborgen items aan te vinken.
 
-### Node.js en NPM
+## 3. Node.js en NPM
 Bekijk onderstaande video's:
 * [De browser versus Node.js](https://www.youtube.com/watch?v=ZpiHUOM_Y-0)
 * [NPM](https://www.youtube.com/watch?v=X8D5Ijpp824)
@@ -51,7 +49,7 @@ Bekijk onderstaande video's:
 
 Installeer nu op je eigen computer Node (inclusief NPM)
 
-#### Node - installeren op Mac
+### Node - installeren op Mac
 
 Open je **terminal**, en installeer [nvm](https://github.com/creationix/nvm) als volgt:
 
@@ -83,7 +81,7 @@ npm -v # Something like 9.2.0 (or a higher version)
 
 > Als je in plaats van bovenstaande instructies gebruik maakt van de Node [installer](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), kun je geconfronteerd worden met een [`eaccess`](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally) probleem. Om die reden raden wij bovenstaande werkwijze met nvm aan. De node installer installeert npm in een directory met local permissions, wat problemen zal geven als je npm packages global wilt gebruiken.
 
-#### Node - installaren op Windows
+### Node - installeren op Windows
 Er is geen NVM voor Windows. We gaan daarom naar de [node.js website](https://nodejs.org/) om node.js voor Windows te downloaden en installeren. Kies de LTS (Long-Term Support) versie, dit is de nieuwste stabiele versie. 
 
 Node en npm zijn nu geinstalleerd. Dit kun je als volgt in PowerShell controleren:
@@ -93,10 +91,10 @@ node -v # Should print 18.13.0 (or a higher version)
 npm -v # Something like 8.19.0 (or a higher version)
 ```
 
-### Node modules
+## 4. Node modules
 Kijk eens rond op de [npm registry](https://www.npmjs.com/) of je packages kunt vinden, die handig zouden kunnen zijn voor je (backend) project. Daarnaast kun je kijken of je handige 'developer dependencies' op NPM kunt vinden, die straks je leven als developer makkelijk kunnen maken. Een goed voorbeeld is [nodemon](https://nodemon.io/), die automatisch je server herstart als je je code hebt aangepast. Super handig, dus dit is een goed moment om die vast te installeren.
 
-### Installeren en uitproberen API
+## 5. Installeren en uitproberen API
 Voor dit project stellen wij een API beschikbaar. Met deze API kun je data lezen uit een database of opslaan in die database, zonder je zorgen te hoeven maken over de achterliggende techniek. 
 * Als je kiest voor de front-end specialisatie, kun je deze API vanuit je code in de browser aanroepen om dynamisch data op te halen of op te slaan.
 * Als je kiest voor de back-end specialisatie, vervang je uiteindelijk deze API door een zelfgeschreven backend.
@@ -117,7 +115,7 @@ Oefening: stuur HTTP requests naar de API om het volgende te doen:
 * Update een object uit de testdata, bijvoorbeeld door een beroep te veranderen in een ander beroep.
 * Voeg zelf een object toe aan de database. Dit hoeft geen test-object te zijn. Maak bijvoorbeeld een huis, of een maaltijd, of een student, of een ....
 
-### Concept
+## 6. Concept
 Denk na over de matching site die je wilt gaan bouwen en uit welke afzonderlijke onderdelen deze kan bestaan.
 
 1. Denk na over een concept voor de matching site. Wie ga je matchen met wie of wat? Kun je een creatieve manier bedenken, om matches tot stand te brengen? Brainstorm over een aantal mogelijkheden. Door welke bestaande concepten kun je je laten inspireren? Documenteer je onderzoek op je wiki en kies vervolgens een concept uit om verder uit te werken.
@@ -127,12 +125,3 @@ Denk na over de matching site die je wilt gaan bouwen en uit welke afzonderlijke
 5. Schets ten slotte één of meer lo-fi [wireframes](https://cmdmethods.nl/cards/stepping-stones/design-specification) om een idee te krijgen van het gebruikers interface.
 
 Leg al het bovenstaande vast op je wiki, zodat we je hier ook feedback op kunnen geven. De focus van dit project is Tech, dus het is niet nodig een volledig design uit te werken. Voor nu is het vooral belangrijk om meer duidelijkheid te krijgen over wat je de komende weken gaat maken.
-
-## Les 2.2 Frontend basis
-
-## Les 2.3 Verdieping
-### A. Verdieping Frontend
-
-### B. Verdieping Backend
-
-## Les 2.4 Q&A lesstof
