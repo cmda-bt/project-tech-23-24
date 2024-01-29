@@ -1,7 +1,5 @@
 # Week 1
 
-Naslagwerk voor JavaScript basiskennis: [Learn JavaScript (FreeCodeCamp)](https://youtu.be/PkZNo7MFNFg)
-
 ## Les 1.1 Introductie & JavaScript herhaling
 1. Toelichting project, eindopdracht en planning
 2. Bestuderen van literatuur en toelichting door docent\
