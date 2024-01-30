@@ -1,5 +1,5 @@
 David
-Oefeningen en uitwerkingen
+Oefeningen en uitwerkingen.
 
 - Animatie recap
 - keyframes
