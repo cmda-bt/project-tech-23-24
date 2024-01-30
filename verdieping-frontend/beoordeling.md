@@ -2,9 +2,8 @@
 
  
 **Het Ontwerp**
- - Het gemaakte werk is verzorgd 
- -- tot in detail verzorgd
- - *Interessant visueel- en interactieontwerp. –	Tot in detail verzorgd en professioneel.*   
+ - Interessant visueel- en interactieontwerp.
+ - Tot in detail verzorgd en professioneel.*  
  - Bediening: –	i.i.g. muis/vinger en toetsenbord.is met muis/vinger en toetsenbord 
  - *Is op meerdere manieren te bedienen, bijv. klikken, knopjes, toetsenbord, short-cuts, swipen, schudden, voice, drag & drop, scrollen…*
  - Bevat betekenisvolle animaties.
