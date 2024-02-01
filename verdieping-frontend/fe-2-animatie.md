@@ -1,4 +1,4 @@
-# FE  Animatie (verdieping)
+# FE  2 (verdieping)
 
 ### Voorbereiding
 
@@ -26,7 +26,8 @@ Code en uitwerkingen:
 
 ### Oefeningen en Uitwerkingen
 
+
 -   code:  **[Animeren - Sample](https://codepen.io/shooft/pen/RwBOVjE)** (Codepen)
 -   uitwerking:  **[Animeren - Sample](https://codepen.io/shooft/pen/NWBmjXP)** (Codepen)
 -   uitwerking:  **[Animeren - Sample fancy](https://codepen.io/shooft/pen/yLqrbpa)** (Codepen)
--   code:  **[Animeren - Oefening springen maar](https://codepen.io/shooft/pen/jOpRmzq)** (Codepen)
+-   uitwerking  :  **[Animeren - Oefening springen maar](https://codepen.io/shooft/pen/jOpRmzq)** (Codepen)
