@@ -1,20 +1,22 @@
 # Les 2.3 Verdieping Backend
 ## Express
-Oefening:
-We'll install Express and create a very basic server that responds to our requests. 
+Oefening: we maken onze eerste eenvoudige webserver met behulp van Node.js en Express. Zie bij deze opdracht het voorbeeld wat we hebben behandeld in de les en het vergelijkbare voorbeeld op [Hello World](https://expressjs.com/en/starter/hello-world.html).
 
-1. Install `express` and require it in `server.js`
-2. Use _http_ methods to have your server respond with _hello world_ when you open `localhost`. Use the resource below as an example of how to do this.
+1. open een terminal
+2. maak een nieuwe folder voor je nieuwe node project (`mkdir`)
+3. ga naar deze folder (`cd`)
+4. start een nieuw node project (`npm init`)
+5. installeer express voor dit project (`npm install express`)
+6. maak een bestand `index.js` met de code van je server. Maak hierin tenminste één route aan, die als als antwoord op een request de response `Hello World` terugstuurd
+7. start de server (`node index.js`)
+8. doe vanuit je browser een http request naar deze server op de URL localhost:8000 (of een ander door jou gekozen poortnumer) en kijk of het werkt. Zo niet, check in elk geval in je terminal of je daar een probleem ziet.
 
-**Ask yourself upon completion:**
-* The server you just wrote? Where does it live? What happens if you turn off your computer?
-* What's `localhost` and how does it defer from a full domain?
+Een paar vragen voor als je klaar bent:
+* Je hebt net een server gemaakt. Waar draait deze en wat gebeurd er als je je computer uitzet?
+* Wat is `localhost` en hoe verschilt dit van een ander domein?
 
-**Additional resources**
-* [Hello World](https://expressjs.com/en/starter/hello-world.html)
-
-1. **Push your changes:**  
-Commit your progess in your repository on GitHub under your username in your own matching-app repository.  
+**Push je code**  
+Commit je webserver code naar je GitHub repository.  
 
 ## Routes en static
 Breid je app uit met static content (image en stylesheet) en meerdere routes
