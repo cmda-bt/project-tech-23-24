@@ -12,47 +12,39 @@ Oefening: we maken onze eerste eenvoudige webserver met behulp van Node.js en Ex
 8. doe vanuit je browser een http request naar deze server op de URL localhost:8000 (of een ander door jou gekozen poortnumer) en kijk of het werkt. Zo niet, check in elk geval in je terminal of je daar een probleem ziet.
 
 Een paar vragen voor als je klaar bent:
-* Je hebt net een server gemaakt. Waar draait deze en wat gebeurd er als je je computer uitzet?
+* Je hebt net een server gemaakt. Waar draait deze en wat gebeurt er als je je computer uitzet?
 * Wat is `localhost` en hoe verschilt dit van een ander domein?
 
 **Push je code**  
 Commit je webserver code naar je GitHub repository.  
 
 ## Routes en static
-Breid je app uit met static content (image en stylesheet) en meerdere routes
-Push je changes
+Opdracht: breid je webserver uit met meerdere routes en de mogelijkheid om static content (zoals images en een stylesheet) te serveren.
 
-Before you start you'll probably want to read a bit about **express,** **routing,** and **templating**. We'll cover this in the lecture but make sure you fully understand these concept, the resources below can help.
-
-* [_Introducing Express on MDN_][intro-express]
-* [_Express Routing guide_][intro-routing]
-* [_Using template engines with Express_][intro-templating]
-
-[🎦 _Watch a video_ about routing and express.][videoexpress]  
-[🎦 _Watch a video_ about request and response.][videorequest]
-
-You can do these exercises before you start working on the assignments to get comfortable with the topics covered in class. The below are interactive self guided lesson modules from [freeCodeCamp](https://www.freecodecamp.org). If you feel a bit more adventurous you can try the [NodeSchool workshoppers](https://nodeschool.io).
-
-* [freeCodeCamp - Basic Node and Express (exercises)](https://www.freecodecamp.org/learn/back-end-development-and-apis/#basic-node-and-express)
-* [Express.js (workshopper)][workshopper]
-
-We'll add more features to our server. It should handle routes and serve static files. Make sure it does (atleast) the following three things:
-
-1. **Basic routing:** Have a couple of different `routes` (e.g. `/about` `/login`) that are useful for your matching-application.
-2. **Error handling:** Respond with a `404 Not Found` if you go to a route that doesn't exist.
-3. **Serve `static files`:** such CSS but also media files such as images, video's or audio files.
-
-**Ask yourself upon completion:**
-* How does the `app instance` work? What makes it possible you can do things like `app.get` or `app.listen`?
-* What are the `req` and `res` parameters?
-
-**Additional resources**
+Voordat je begint, is het verstandig je verder te verdiepen in de techniek met behulp van onderstaande resources.
+* [🎦 Bekijk een video over routing en express.](https://www.youtube.com/watch?v=SRHQ3FM39Qg)
+* [_Introducing Express on MDN_](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction#introducing_express)
 * [Basic Routing](https://expressjs.com/en/starter/basic-routing.html)
-* [Static Files](https://expressjs.com/en/starter/static-files.html)
+* [_Express Routing guide_](https://expressjs.com/en/guide/routing.html)
+* [Static Files](https://expressjs.com/en/starter/static-files.html)  
+
+Je bent nu klaar om je server uit te breiden met meer functionaliteit. Voeg in elk geval onderstaande drie dingen toe:
+
+1. **Basic routing:** Zorg dat je server verschillende responses kan geven op een aantal verschillende `routes` (b.v. `/about` `/login`) die nuttig zijn voor je matching-application.
+2. **Error handling:** Antwoord met een `404 Not Found` als route wordt opgevraagd die niet bestaat.
+3. **Serve `static files`:** zoals CSS en afbeeldingen.
+
+Een vraag voor als je klaar bent:
+* Wat zijn precies de `req` and `res` parameters die je in je routes gebruikt?
+
+**Push je code**  
+Push de nieuwste versie van je webserver code naar je GitHub repository.  
 
 ## Templating engine
 Gebruik de templating engine om voor een route een view te renderen.
 Push je changes
+
+* [_Using template engines with Express_][intro-templating]
 > Learn how to use a templating engine to dynamically render data and create components for your matching application.
 > 
    
