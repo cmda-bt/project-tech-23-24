@@ -1,4 +1,4 @@
-# FE 2 Ordenen
+# FE 2 (verdieping) Ordenen
 De volgende links bevatten de benodigde bronnen en oefeningen om je de vaardigheden eigen te maken.
 De oefeningen zijn stukjes code op codepen welke je zelf moet afmaken. Ga niet aan de slag in de codepen van de link maar FORK je eigen kopie er van en bewerk die.
 
