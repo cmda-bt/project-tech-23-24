@@ -1,3 +1,8 @@
+# FE 1 Ordenen
+De volgende links bevatten de benodigde bronnen en oefeningen om je de vaardigheden eigen te maken.
+De oefeningen zijn stukjes code op codepen welke je zelf moet afmaken. Ga niet aan de slag in de codepen van de link maar FORK je eigen kopie er van en bewerk die.
+
+[Bekijk deze slides](fe-1-iedereen.pdf)
 ## Lijstjes
 
 ### Bronnen en tools
