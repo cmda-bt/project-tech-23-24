@@ -21,6 +21,9 @@ Commit je webserver code naar je GitHub repository.
 ## Routes en static
 Opdracht: breid je webserver uit met meerdere routes en de mogelijkheid om static content (zoals images en een stylesheet) te serveren.
 
+Bestudeer eerst onderstaande resource voor meer informatie en voorbeelden voor het gebruik van EJS met Node.js
+* [EJS templates met Node](https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application)
+
 Voordat je begint, is het verstandig je verder te verdiepen in de techniek met behulp van onderstaande resources.
 * [🎦 Bekijk een video over routing en express.](https://www.youtube.com/watch?v=SRHQ3FM39Qg)
 * [Introducing Express on MDN](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction#introducing_express)
