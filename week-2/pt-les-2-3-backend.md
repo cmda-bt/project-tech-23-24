@@ -1,6 +1,6 @@
 # Les 2.3 Verdieping Backend
 ## Express
-Oefening: we maken onze eerste eenvoudige webserver met behulp van Node.js en Express. Zie bij deze opdracht het voorbeeld wat we hebben behandeld in de les en het vergelijkbare voorbeeld op [Hello World](https://expressjs.com/en/starter/hello-world.html).
+Opdracht: we maken onze eerste eenvoudige webserver met behulp van Node.js en Express. Zie bij deze opdracht het voorbeeld wat we hebben behandeld in de les en het vergelijkbare voorbeeld op [Hello World](https://expressjs.com/en/starter/hello-world.html).
 
 1. open een terminal
 2. maak een nieuwe folder voor je nieuwe node project (`mkdir`)
@@ -12,66 +12,50 @@ Oefening: we maken onze eerste eenvoudige webserver met behulp van Node.js en Ex
 8. doe vanuit je browser een http request naar deze server op de URL localhost:8000 (of een ander door jou gekozen poortnumer) en kijk of het werkt. Zo niet, check in elk geval in je terminal of je daar een probleem ziet.
 
 Een paar vragen voor als je klaar bent:
-* Je hebt net een server gemaakt. Waar draait deze en wat gebeurd er als je je computer uitzet?
+* Je hebt net een server gemaakt. Waar draait deze en wat gebeurt er als je je computer uitzet?
 * Wat is `localhost` en hoe verschilt dit van een ander domein?
 
 **Push je code**  
 Commit je webserver code naar je GitHub repository.  
 
 ## Routes en static
-Breid je app uit met static content (image en stylesheet) en meerdere routes
-Push je changes
+Opdracht: breid je webserver uit met meerdere routes en de mogelijkheid om static content (zoals images en een stylesheet) te serveren.
 
-Before you start you'll probably want to read a bit about **express,** **routing,** and **templating**. We'll cover this in the lecture but make sure you fully understand these concept, the resources below can help.
-
-* [_Introducing Express on MDN_][intro-express]
-* [_Express Routing guide_][intro-routing]
-* [_Using template engines with Express_][intro-templating]
-
-[🎦 _Watch a video_ about routing and express.][videoexpress]  
-[🎦 _Watch a video_ about request and response.][videorequest]
-
-You can do these exercises before you start working on the assignments to get comfortable with the topics covered in class. The below are interactive self guided lesson modules from [freeCodeCamp](https://www.freecodecamp.org). If you feel a bit more adventurous you can try the [NodeSchool workshoppers](https://nodeschool.io).
-
-* [freeCodeCamp - Basic Node and Express (exercises)](https://www.freecodecamp.org/learn/back-end-development-and-apis/#basic-node-and-express)
-* [Express.js (workshopper)][workshopper]
-
-We'll add more features to our server. It should handle routes and serve static files. Make sure it does (atleast) the following three things:
-
-1. **Basic routing:** Have a couple of different `routes` (e.g. `/about` `/login`) that are useful for your matching-application.
-2. **Error handling:** Respond with a `404 Not Found` if you go to a route that doesn't exist.
-3. **Serve `static files`:** such CSS but also media files such as images, video's or audio files.
-
-**Ask yourself upon completion:**
-* How does the `app instance` work? What makes it possible you can do things like `app.get` or `app.listen`?
-* What are the `req` and `res` parameters?
-
-**Additional resources**
+Voordat je begint, is het verstandig je verder te verdiepen in de techniek met behulp van onderstaande resources.
+* [🎦 Bekijk een video over routing en express.](https://www.youtube.com/watch?v=SRHQ3FM39Qg)
+* [Introducing Express on MDN](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction#introducing_express)
 * [Basic Routing](https://expressjs.com/en/starter/basic-routing.html)
-* [Static Files](https://expressjs.com/en/starter/static-files.html)
+* [Express Routing guide](https://expressjs.com/en/guide/routing.html)
+* [Static Files](https://expressjs.com/en/starter/static-files.html)  
+
+Je bent nu klaar om je server uit te breiden met meer functionaliteit. Voeg in elk geval onderstaande drie dingen toe:
+
+1. **Basic routing:** Zorg dat je server verschillende responses kan geven op een aantal verschillende `routes` (b.v. `/about` of `/login`) die nuttig zijn voor je matching-application. Kun je al een route maken met een route parameter, bijvoorbeeld `profile/:username`?
+2. **Error handling:** Antwoord met een `404 Not Found` als een route wordt opgevraagd die niet bestaat.
+3. **Serve static files:** Zoals CSS en afbeeldingen.
+
+Een vraag voor als je klaar bent:
+* Wat zijn precies de `req` and `res` parameters die je in je routes gebruikt?
+
+**Push je code**  
+Push de nieuwste versie van je webserver code naar je GitHub repository.  
 
 ## Templating engine
-Gebruik de templating engine om voor een route een view te renderen.
-Push je changes
-> Learn how to use a templating engine to dynamically render data and create components for your matching application.
-> 
+Opdracht: gebruik de templating engine om voor je routes views te renderen met dynamische data.
+
+Bestudeer eerst onderstaande resource voor meer informatie en voorbeelden voor het gebruik van EJS met Node.js
+* [EJS templates met Node](https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application)
+
+1. installeer en configureer de templating engine EJS
    
-2. Then, **create views and try to render a page** using the templating engine. Start with 'simple' HTML pages and make sure you get different .html for each route.
+2. maak een paar views voor verschillende routes en laat die renderen vanuit de callback functies voor die routes. Begin met eenvoudige HTML (zonder dynamische logica) in je views en zorg dat er voor elke route een andere view wordt gerenderd.
 
-3. Then, **render dynamic data** using your templating engine. So instead of you writing the .html insert some dynamic data. For example; you can store and array or object on the server and _inject_ data into the view. Later we'll look at how to insert data from a database.
+3. probeer vervolgens vanuit je views dynamische data te tonen. Je kunt in de code van je Node.js webserver een variabele, JavaScript object of array definieren, en de waarde daarvan doorgeven aan de templating engine vanuit je callback functie. Als je een route hebt met een route parameter, is het interessant om de waarde van die route parameter als variabele door te geven aan je view en vanuit daar te tonen.
   
-4. **Use the features** of your templating engine. Try out atleast the following:
-   * Use[`includes`](https://ejs.co/#includes); to insert contents of files into another.
-   * Use [`conditionals`](https://pugjs.org/language/conditionals.html); if statements to render html conditionally
-   * Use [`mixins`](https://pugjs.org/language/mixins.html); create small reusable blocks of html
+4. Ontdek meer mogelijkheden van je templating engine. Probeer in elk geval:
+   * [includes](https://ejs.co/#includes); om de inhoud van een (partial) view in een andere view op te nemen.
+   * [if en else](https://www.includehelp.com/node-js/ejs-if-else-statement-ejs-conditions.aspx); om stukken HTML wel of niet te tonen afhankelijk van de voorwaarden
+   * [loops](https://www.includehelp.com/node-js/ejs-for-loops.aspx); om een lijst van items uit te schrijven
 
-5. **Start building out your components** for your matching application feature. You can create different partials and [lay-outs](https://pugjs.org/language/inheritance.html) (includes) for components of your page e.g. header, footer or a form.
-
-> 💡 It's very common to create a consistent naming convention and folder structure for your components. Most people base it on the [Atomic Design method](https://atomicdesign.bradfrost.com/chapter-2/) by Brad Frost. [Here's an example](https://github.com/iSirThijs/Player2) with different partials and lay-out components.
-
-**Ask yourself upon completion:**
-* How does express combine the data from the server with the templating engine?
-* How do partials work? Can you create a folder structure for all the components?
-
-**Additional resources**
-* [Using template engines with Express][template]
+**Push je code**  
+Push tenslotte weer de nieuwste versie van je webserver code naar je GitHub repository.  
