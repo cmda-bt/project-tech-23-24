@@ -53,9 +53,9 @@ Bestudeer eerst onderstaande resource voor meer informatie en voorbeelden voor h
 3. probeer vervolgens vanuit je views dynamische data te tonen. Je kunt in de code van je Node.js webserver een variabele, JavaScript object of array definieren, en de waarde daarvan doorgeven aan de templating engine vanuit je callback functie. Als je een route hebt met een route parameter, is het interessant om de waarde van die route parameter als variabele door te geven aan je view en vanuit daar te tonen.
   
 4. Ontdek meer mogelijkheden van je templating engine. Probeer in elk geval:
-   * [`includes`](https://ejs.co/#includes); om de inhoud van een (partial) view in een andere view op te nemen.
-   * [`if en else`](https://www.includehelp.com/node-js/ejs-if-else-statement-ejs-conditions.aspx); om stukken HTML wel of niet te tonen afhankelijk van de voorwaarden
-   * [`loops`](https://www.includehelp.com/node-js/ejs-for-loops.aspx); om een lijst van items uit te schrijven
+   * [includes](https://ejs.co/#includes); om de inhoud van een (partial) view in een andere view op te nemen.
+   * [if en else](https://www.includehelp.com/node-js/ejs-if-else-statement-ejs-conditions.aspx); om stukken HTML wel of niet te tonen afhankelijk van de voorwaarden
+   * [loops](https://www.includehelp.com/node-js/ejs-for-loops.aspx); om een lijst van items uit te schrijven
 
 **Push je code**  
 Push tenslotte weer de nieuwste versie van je webserver code naar je GitHub repository.  
