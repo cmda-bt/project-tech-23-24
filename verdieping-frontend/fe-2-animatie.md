@@ -1,6 +1,4 @@
-
-
-# FE  2 (verdieping)
+# FE  Animatie (verdieping)
 
 ### Voorbereiding
 
@@ -17,28 +15,18 @@ Code en uitwerkingen:
 
 [Bekijk deze slides](fe-1-iedereen.pdf)
 
-## UNDER CONSTRUCTION
-Bronnen en tools : 
--   bron:  **[AmiiboAPI documentation voor de oefeningen](https://www.amiiboapi.com/)** (www)
--   bron:  **[AmiiboAPI JSON voor de oefeningen](https://www.amiiboapi.com/api/amiibo/?gameseries=Super%20Mario)**  (url)
--   bron:  **[Lijst met openbare API's](https://github.com/public-apis/public-apis)** - nb. kies i.i.g. no/yes/yes (www)
--   bron:  **[Fetch API data voorbeeld](https://www.youtube.com/watch?v=7f2HNadULOs)**  (YouTube, 9min)
--   bron:  **[Learn JSON in 10 minutes](https://www.youtube.com/watch?v=iiADhChRriM)**  (YouTube, 12min)
+### Werkgroep
+
+### Bronnen en tools
+-   bron:  **[CSS selectoren en properties - almanac](https://css-tricks.com/almanac/)**  (CSS-tricks)
+-   bron:  **[Using HSL colors in CSS](https://www.smashingmagazine.com/2021/07/hsl-colors-css/)**  (CSS-tricks)
+-   bron:  **[Guide to Modern CSS Colors](https://www.smashingmagazine.com/2021/11/guide-modern-css-colors/)** (CSS-tricks)
+-   tool:  [**Contrast-ratio-checker**](https://contrast-ratio.com/)  (Lea Verou)
 
 
-### Oefeningen
+### Oefeningen en Uitwerkingen
 
--   code:  [**Oefeningen - API basics**](https://codepen.io/shooft/pen/vYzROqZ)  (Codepen)
--   code:  [**Oefeningen - API empty & loading state**](https://codepen.io/shooft/pen/mdGxJZB) (Codepen)
--   code:  **[Oefeningen - API drag-and-drop](https://codepen.io/shooft/pen/gOdepNo)** (Codepen)
-
-### Uitwerkingen
-
-
--   uitwerking:  **[Oefeningen - API basics](https://codepen.io/shooft/pen/OJovVev)**  (Codepen)
--   uitwerking:  [**Oefeningen - API empty & loading state**](https://codepen.io/shooft/pen/BaOrNgx) (Codepen)
--   uitwerking:  **[Oefeningen - API drag-and-drop](https://codepen.io/shooft/pen/NWLYqZL)** (Codepen)
-<br/><br/>
-
-
-## Lijstjes
+-   code:  **[Animeren - Sample](https://codepen.io/shooft/pen/RwBOVjE)** (Codepen)
+-   uitwerking:  **[Animeren - Sample](https://codepen.io/shooft/pen/NWBmjXP)** (Codepen)
+-   uitwerking:  **[Animeren - Sample fancy](https://codepen.io/shooft/pen/yLqrbpa)** (Codepen)
+-   code:  **[Animeren - Oefening springen maar](https://codepen.io/shooft/pen/jOpRmzq)** (Codepen)
