@@ -9,3 +9,6 @@
 ## 2. Lesopdrachten maken en bespreken
 * [PT 009 Fetch een .json-bestand in een asynchrone functie](https://scrimba.com/scrim/coff9492c9c05f90c2748ebaa)
 
+## 3. Q&A week 1 & voorkennis
+Je probeert elkaars vragen over de stof van deze week te beantwoorden. Overgebleven vragen worden klassikaal aan de docent voorgelegd.
+
