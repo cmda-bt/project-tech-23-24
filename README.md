@@ -1,19 +1,19 @@
 # project-tech-23-24
 
-## Synopsis
-The course **Project Tech** is given at [**CMDA**][cmda] in 2024 between February and June.
+## Overzicht
+Het blok **Project Tech** wordt gegeven bij de opleiding [**CMDA**][cmda] van februari tot juni 2024.
 
-*   **Course**: [Project: Tech][course] (`2000PTEC23`)
+*   **Vak**: [Project: Tech][course] (`2000PTEC23`)
 *   **Coordinator**: [Berry Nieskens][bnieskens] and [Ivo Nijhuis][ivogit]
-*   **Lecturers**:  [Michael Kern][emkern], [Danny de Vries][dandevri], [Ivo Nijhuis][ivogit] (coördinator) and [Berry Nieskens][bnieskens] (coördinator) 
-*   **Credit**: 13 ECTS
-*   **Academic year**: 2023-2024
-*   **Period**: Quarter 3 or 4 in the second semester
-*   **University**: [Amsterdam University of Applied Sciences][university]
-*   **Programme**: [Communication and Multimedia Design][cmd] (full time bachelor CROHO: `34092`)
-*   **Faculty**: [Digital Media and Creative Industries][faculty]
-*   **Language**: Dutch instructions and English resources
-*   **Entry requirements**: N/A
+*   **Docenten**:  [Michael Kern][emkern], [Danny de Vries][dandevri], [Ivo Nijhuis][ivogit] (coördinator) and [Berry Nieskens][bnieskens] (coördinator) 
+*   **Studiepunten**: 13 ECTS
+*   **Collegejaar**: 2023-2024
+*   **Blok**: Quarter 3 or 4 in the second semester
+*   **Hogeschool**: [Amsterdam University of Applied Sciences][university]
+*   **Programma**: [Communication and Multimedia Design][cmd] (full time bachelor CROHO: `34092`)
+*   **Faculteit**: [Digital Media and Creative Industries][faculty]
+*   **Taal**: Dutch instructions and English resources
+*   **Toelatingseisen**: geen
 
 ## Beschrijving
 Project Tech is een keuzevak in het derde en vierde blok van het tweede schooljaar bij CMD. In dit project verbeter en verbreed je jouw kennis van web development zoals dat ook al aan bod 
@@ -25,7 +25,7 @@ De focus van dit project ligt, wat betreft technische vaardigheden, op de *front
 
 Er worden gedurende het project twee verbredingstrajecten aangeboden. Studenten die geïnteresseerd zijn in het zelf bouwen van de back-end krijgen extra les over NodeJS en MongoDB. Wie meer wil weten over het gebruiken van CSS-animaties in de front-end kan daar extra lessen in volgen.
 
-## Communication
+## Communicatie
 
 *   [GitHub][gh] — Bron voor planning, lesopdrachten en presentaties
 *   [Microsoft Teams][teams] — Contact tussen docenten en studenten
@@ -38,7 +38,7 @@ Dit project wordt gegeven bij [Communication and Multimedia Design][bachelor], e
 
 Geïnspireerd door [Open Education Global][oec] maken we het programma en de lesmaterialen van Project Tech openbaar beschikbaar op [cmda-bt](github.com/cmda-bt). 
 
-## Conduct
+## Gedragsregels
 
 This course has a [Code of Conduct][coc].  Anyone interacting with this repository, organisation, or community is bound by it. Staff and students of the Amsterdam University of Applied Sciences (Hogeschool van Amsterdam) are additionally bound by the [Regulation Undesirable
 Conduct][ruc] ([Regeling Ongewenst Gedrag][rog]).
@@ -49,7 +49,7 @@ We are dedicated to provide you with a learning environment that is _rigorous, r
 
 ## License
 
-[MIT][], docs and images are [CC-BY-4.0][].
+[MIT][], documenten en plaatjes zijn [CC-BY-4.0][].
 
 
 
