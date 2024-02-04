@@ -42,10 +42,6 @@ Geïnspireerd door [Open Education Global][oec] maken we het programma en de les
 
 Voor dit blok is een [Code of Conduct][coc] opgesteld, die geldt voor bezoekers aan deze repository en leden van onze organisatie en community. Voor medewerkens en studenten van de Hogeschool van Amsterdam is ook de [Regeling Ongewenst Gedrag][rog] van toepassing.
 
-## Statements
-
-We are dedicated to provide you with a learning environment that is _rigorous, respectful and supportive_ so you can engage in the free exchange of ideas and commit yourself fully to the study of your discipline. To that end we are committed to enforce important AUAS policies. You can find our policies and statements (e.g. accessibility, health, plagiarism) in the `docs` folder.
-
 ## License
 
 [MIT][], documenten en plaatjes zijn [CC-BY-4.0][].
