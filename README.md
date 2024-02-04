@@ -71,4 +71,4 @@ Voor dit blok is een [Code of Conduct][coc] opgesteld, die geldt voor bezoekers 
 [oec]: https://www.oeglobal.org
 [coc]: code-of-conduct.md
 [ruc]: https://www.amsterdamuas.com/study/study-choice/life-at-auas/support
-[rog]: https://www.hva.nl/praktisch/algemeen/hva-breed/juridische-zaken/loket-beroep-bezwaar-en-klacht/regeling-ongewenst-gedrag/regeling-ongewenst-gedrag.html
+[rog]: https://www.hva.nl/kmr/az-lemmas/algemeen/hva-breed/juridische-zaken/loket-beroep-bezwaar-en-klacht/regeling-ongewenst-gedrag/regeling-ongewenst-gedrag.html
