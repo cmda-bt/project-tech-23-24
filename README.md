@@ -1,7 +1,7 @@
 # project-tech-23-24
 
 ## Overzicht
-Het blok **Project Tech** wordt gegeven bij de opleiding [**CMDA**][cmda] van februari tot juni 2024.
+Het blok **Project Tech** wordt gegeven bij de opleiding [**CMD Amsterdam**][cmda] van februari tot juni 2024.
 
 *   **Vak**: [Project: Tech][course] (`2000PTEC23`)
 *   **Coordinator**: [Berry Nieskens][bnieskens] and [Ivo Nijhuis][ivogit]
@@ -40,8 +40,7 @@ Geïnspireerd door [Open Education Global][oec] maken we het programma en de les
 
 ## Gedragsregels
 
-This course has a [Code of Conduct][coc].  Anyone interacting with this repository, organisation, or community is bound by it. Staff and students of the Amsterdam University of Applied Sciences (Hogeschool van Amsterdam) are additionally bound by the [Regulation Undesirable
-Conduct][ruc] ([Regeling Ongewenst Gedrag][rog]).
+Voor dit blok is een [Code of Conduct][coc] opgesteld, die geldt voor bezoekers aan deze repository en leden van onze organisatie en community. Voor medewerkens en studenten van de Hogeschool van Amsterdam is ook de [Regeling Ongewenst Gedrag][rog] van toepassing.
 
 ## Statements
 
