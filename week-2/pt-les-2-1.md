@@ -103,6 +103,8 @@ In beide gevallen is het aan de praat krijgen van de API een mooie oefening om d
 
 Je kunt onze [API vinden op GitHub](https://github.com/ivo-online/database_api). Volg daar de instructies in de README.md om een kopie te maken van deze API op je eigen computer. Je moet hierbij een aantal persoonlijke toegangsgegevens invullen in een eigen .env file. De benodigde waardes krijg je van je docenten.
 
+Bekijk de video over het [🎦 installeren en uitproberen van de API](https://youtu.be/MpDuQBQfJZM).
+
 Zodra je de API succesvol hebt draaien in je terminal, kun je proberen een aantal HTTP requests naar de API te sturen om te kijken wat er gebeurd. De mogelijke requests zijn gedocumenteerd in de [README.md](https://github.com/ivo-online/database_api/blob/main/README.md) van de API. 
 
 Vanuit frontend JavaScript code, die draait in de browser, kun je straks gebruik maken van [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) om requests naar de API te sturen. Om, zonder te coderen, al vast een beetje gevoel te krijgen hoe de API werkt, kun je ook handmatig HTTP requests sturen naar de API en de responses zien met een geschikte browser plugin zoals [Tabbed PostMan](https://chromewebstore.google.com/detail/tabbed-postman-rest-clien/coohjcphdfgbiolnekdpbcijmhambjff) voor Chrome.
@@ -113,7 +115,8 @@ Oefening: stuur HTTP requests naar de API om het volgende te doen:
 * Vraag een overzicht op van alle testdata die in de database aanwezig is.
 * Vraag 1 specifiek object op uit de aangemaakte testdata, bijvoorbeeld iemand met een bepaald beroep.
 * Update een object uit de testdata, bijvoorbeeld door een beroep te veranderen in een ander beroep.
-* Voeg zelf een object toe aan de database. Dit hoeft geen test-object te zijn. Maak bijvoorbeeld een huis, of een maaltijd, of een student, of een ....
+* Voeg zelf een nieuw object toe aan de database. Dit hoeft geen test-object te zijn. Maak bijvoorbeeld een huis, of een maaltijd, of een student, of een ....
+* Probeer de gegevens van je zojuist gemaakte object op te halen uit de database. Was je data goed opgeslagen?
 
 ## 6. Concept
 Denk na over de matching site die je wilt gaan bouwen en uit welke afzonderlijke onderdelen deze kan bestaan.
