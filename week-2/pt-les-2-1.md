@@ -28,11 +28,15 @@ Apple heeft ook een ingebouwde command line interface. Zoek naar `terminal` met 
 
 Veel mensen vinden het ook fijn de [Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal) direct vanuit VSCode te gebruiken.
 
-Opdracht:
+**Theorie Command Line**
+
+Gebruik onderstaande resources om meer te leren over de commando's die je kunt gebruiken in de terminal:
 * Voor Windows gebruikers: Lees [Working with files and folders](https://learn.microsoft.com/en-us/powershell/scripting/samples/working-with-files-and-folders?view=powershell-7.3) en kijk de video: [Powershell for Beginners](https://www.youtube.com/watch?v=Jfvg3CS1X3A)
 * Voor Mac gebruikers: volg [A Designer’s Guide to the Terminal](https://react.design/terminal) en kijk de video: [Command Line Basics video](https://www.youtube.com/watch?v=DP218aBHm1Q) van CLI cursus door Wes Bos
 
-Oefening: maak de volgende opdrachten om de basis van de command line onder de knie te krijgen
+**Opdracht - Oefenen met de Command Line** 
+
+Maak de volgende opdrachten om de basis van de command line onder de knie te krijgen
 * Zoek de folder met je documenten voor Project Tech in je verkenner of finder. Open nu een terminal venster en zoek daar dezelfde folder op. Tip: gebruik `cd` en `pwd`
 * Vraag een lijst op van de bestanden in deze folder. Tip: gebruik `ls`
 * Maak een kopie van een van deze bestanden.
