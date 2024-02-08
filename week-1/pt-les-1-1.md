@@ -12,3 +12,4 @@
 - [PT 002 - Variabelen, scope en hoisting](https://scrimba.com/scrim/c6rnM3cp)
 - [PT 003 - Arrays definiëren](https://scrimba.com/scrim/co7ff4cdebcd149396dc9cf73) 
 - [PT 004 - Array methoden](https://scrimba.com/scrim/cofb64e2990eb6578f16d922a)
+- [PT 005 - Geavanceerde Array methoden](https://scrimba.com/scrim/co3804c55a622720647c1b62a)
