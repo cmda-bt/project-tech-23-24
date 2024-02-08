@@ -94,7 +94,9 @@ npm -v # Something like 8.19.0 (or a higher version)
 ## 4. Node modules
 Kijk eens rond op de [npm registry](https://www.npmjs.com/) of je packages kunt vinden, die handig zouden kunnen zijn voor je (backend) project. Daarnaast kun je kijken of je handige 'developer dependencies' op NPM kunt vinden, die straks je leven als developer makkelijk kunnen maken. Een goed voorbeeld is [nodemon](https://nodemon.io/), die automatisch je server herstart als je je code hebt aangepast. Super handig, dus dit is een goed moment om die vast te installeren.
 
-## 5. Installeren en uitproberen API
+
+
+## 5. Installeren en uitproberen "Data API"
 Voor dit project stellen wij een API beschikbaar. Met deze API kun je data lezen uit een database of opslaan in die database, zonder je zorgen te hoeven maken over de achterliggende techniek. 
 * Als je kiest voor de front-end specialisatie, kun je deze API vanuit je code in de browser aanroepen om dynamisch data op te halen of op te slaan.
 * Als je kiest voor de back-end specialisatie, vervang je uiteindelijk deze API door een zelfgeschreven backend.
@@ -117,14 +119,3 @@ Oefening: stuur HTTP requests naar de API om het volgende te doen:
 * Update een object uit de testdata, bijvoorbeeld door een beroep te veranderen in een ander beroep.
 * Voeg zelf een nieuw object toe aan de database. Dit hoeft geen test-object te zijn. Maak bijvoorbeeld een huis, of een maaltijd, of een student, of een ....
 * Probeer de gegevens van je zojuist gemaakte object op te halen uit de database. Was je data goed opgeslagen?
-
-## 6. Concept
-Denk na over de matching site die je wilt gaan bouwen en uit welke afzonderlijke onderdelen deze kan bestaan.
-
-1. Denk na over een concept voor de matching site. Wie ga je matchen met wie of wat? Kun je een creatieve manier bedenken, om matches tot stand te brengen? Brainstorm over een aantal mogelijkheden. Door welke bestaande concepten kun je je laten inspireren? Documenteer je onderzoek op je wiki en kies vervolgens een concept uit om verder uit te werken.
-2. Denk na over je doelgroep. Wat zijn dit voor mensen, wat vinden ze leuk en wat voor functionaliteit verwachten ze? Wat zijn hun wensen en uitdagingen? Misschien kun je een aantal mensen interviewen of online informatie vinden over deze groep. Documenteer je onderzoek wederom op de wiki.
-3. Beschrijf op je wiki een aantal (ongeveer 5) [Job Stories](https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27) op om ideeën te genereren over de functionaliteit die nodig is op je matching site. Maak uit de gevonden job stories een keuze voor een functionaliteit die jij verder uit gaat werken.
-4. Werk de gekozen job story op je wiki verder uit door hier een [requirements list](https://cmdmethods.nl/cards/stepping-stones/requirements-list) voor op te stellen.
-5. Schets ten slotte één of meer lo-fi [wireframes](https://cmdmethods.nl/cards/stepping-stones/design-specification) om een idee te krijgen van het gebruikers interface.
-
-Leg al het bovenstaande vast op je wiki, zodat we je hier ook feedback op kunnen geven. De focus van dit project is Tech, dus het is niet nodig een volledig design uit te werken. Voor nu is het vooral belangrijk om meer duidelijkheid te krijgen over wat je de komende weken gaat maken.
