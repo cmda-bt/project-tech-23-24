@@ -1,6 +1,11 @@
 # Week 2
 
 ## Les 2.1 [WG] Backend basis
+  - Http request & response
+  - Command line
+  - NodeJS & NPM
+  - Node modules
+  - Data API
 ## Les 2.2 [WG] Frontend basis
   - API basics, empty & loading state
   - Keuze voor specialisatie maken (docenten inventariseren)

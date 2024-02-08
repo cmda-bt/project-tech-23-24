@@ -10,8 +10,10 @@
 ### Oefeningen
 - code: **[Oefening lijstjes en libs - drag-n-drop](https://codepen.io/shooft/pen/ZEMXKxp)** (Codepen)
 - code: **[Oefening lijstjes en libs - carousel](https://codepen.io/shooft/pen/RwYLgrm)** (Codepen)
+- code: **[Oefeningen - API drag-and-drop](https://codepen.io/shooft/pen/gOdepNo)** (Codepen)
 
 ### Uitwerkingen
 - uitwerking: **[Oefening lijstjes en libs - drag-n-drop](https://codepen.io/shooft/pen/eYLGWMB)** (Codepen)
 - uitwerking: **[Oefening lijstjes en libs - carousel](https://codepen.io/shooft/pen/GRXMEoV)** (Codepen)
+- uitwerking: **[Oefeningen - API drag-and-drop](https://codepen.io/shooft/pen/NWLYqZL)** (Codepen)
 

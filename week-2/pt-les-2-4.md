@@ -1,4 +1,4 @@
-# Les 2.4 Q&A lesstof week 1 & 2
+# Les 2.4 Concept & Q&A
 
 - Team samenstellen door docenten
 - Rubric bespreken
