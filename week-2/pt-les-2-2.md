@@ -17,11 +17,10 @@ Bronnen en tools :API
 
 - code: [**Oefeningen - API basics**](https://codepen.io/shooft/pen/vYzROqZ) (Codepen)
 - code: [**Oefeningen - API empty & loading state**](https://codepen.io/shooft/pen/mdGxJZB) (Codepen)
-- code: **[Oefeningen - API drag-and-drop](https://codepen.io/shooft/pen/gOdepNo)** (Codepen)
+
 
 ### Uitwerkingen
 
 - uitwerking: **[Oefeningen - API basics](https://codepen.io/shooft/pen/OJovVev)** (Codepen)
 - uitwerking: [**Oefeningen - API empty & loading state**](https://codepen.io/shooft/pen/BaOrNgx) (Codepen)
-- uitwerking: **[Oefeningen - API drag-and-drop](https://codepen.io/shooft/pen/NWLYqZL)** (Codepen)
-  <br/><br/>
+
