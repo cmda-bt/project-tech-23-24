@@ -15,3 +15,16 @@
 ## Les 2.4 [WG] Concept eindopdracht & Q&A 
   - Concept eindopdracht bedenken met team
   - Q&A lesstof week 1 & 2
+
+
+# Aangepaste planning klas Tech 2
+## 2.3 (Berry)
+- Teams indeling
+- Stap 1 en 2 van Concept (in team) 
+- Verdieping frontend
+- Backenders richten de eerste versie van hun backend in
+
+## 2.4 (Danny) 
+- Stap 3 en 4 van concept (in team) 
+- Backend verdieping
+- Frontenders gaan eerste opzet voor hun component maken 
