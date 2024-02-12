@@ -9,7 +9,7 @@ De oefeningen zijn stukjes code op codepen welke je zelf moet afmaken. Ga niet a
 Bronnen en tools :API
 - bron: **[AmiiboAPI documentation voor de oefeningen](https://www.amiiboapi.com/)** (www)
 - bron: **[AmiiboAPI JSON voor de oefeningen](https://www.amiiboapi.com/api/amiibo/?gameseries=Super%20Mario)** (url)
-- bron: **[Lijst met openbare API's](https://github.com/public-apis/public-apis)** - nb. kies i.i.g. no/yes/yes (www)
+- bron: **[Lijst met openbare API's](https://github.com/marcelscruz/public-apis)** - nb. linkjes in README.md (www)
 - bron: **[Fetch API data voorbeeld](https://www.youtube.com/watch?v=7f2HNadULOs)** (YouTube, 9min)
 - bron: **[Learn JSON in 10 minutes](https://www.youtube.com/watch?v=iiADhChRriM)** (YouTube, 12min)
 
