@@ -4,7 +4,7 @@ In deze les leren we meer over de techniek die komt kijken bij het opzetten van 
 Na al deze theorie is het ook tijd een begin te maken met het eindproduct. Je brainstormt over het concept voor de matching-app die je wilt bouwen en documenteert dit in je wiki.
 
 ## 1. HTTP request en response
-Bekijk de [video over HTTP](https://www.youtube.com/watch?v=IS3HRyUXJX0) requests en responses.
+🎦 Bekijk de [video over HTTP](https://www.youtube.com/watch?v=IS3HRyUXJX0) requests en responses.
 
 ## 2. Command line
 Gedurende dit blok zullen we regelmatig gebruik maken van de Terminal. Neem een moment om deze op je computer gereed te maken en de basis te leren.
@@ -109,7 +109,7 @@ In beide gevallen is het aan de praat krijgen van de API een mooie oefening om d
 
 Je kunt onze [API vinden op GitHub](https://github.com/ivo-online/database_api). Volg daar de instructies in de README.md om een kopie te maken van deze API op je eigen computer. Je moet hierbij een aantal persoonlijke toegangsgegevens invullen in een eigen .env file. De benodigde waardes krijg je van je docenten.
 
-Bekijk de video over het [🎦 installeren en uitproberen van de API](https://youtu.be/MpDuQBQfJZM).
+🎦 Bekijk de video over het [ installeren en uitproberen van de API](https://youtu.be/MpDuQBQfJZM).
 
 Zodra je de API succesvol hebt draaien in je terminal, kun je proberen een aantal HTTP requests naar de API te sturen om te kijken wat er gebeurd. De mogelijke requests zijn gedocumenteerd in de [README.md](https://github.com/ivo-online/database_api/blob/main/README.md) van de API. 
 
