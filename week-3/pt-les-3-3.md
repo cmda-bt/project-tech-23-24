@@ -1,9 +1,5 @@
 # Les 3.3 Groepswerk
 
-## Instructie feedbacksessie
-
-De docent legt uit wat er als voorbereiding op de feedbacksessie van je wordt verwacht.
-
 ## Groepswerk
 
 In je eigen team werk je verder aan de eindopdracht.
