@@ -1,4 +1,6 @@
 # Les 3.2 Verdieping backend
+## Boilerplate
+Verspreid over de lessen en opdrachten kom je verschillende stukken code tegen die je nodig hebt om je webserver aan de praat te krijgen. Deze zijn verzameld in een [boilerplate voor je Node.js webserver](/verdieping-backend/server-boilerplate.js), zodat je niet de sheets hoeft over te typen ;)
 
 ## Formulieren verwerken
 Tot nu toe hebben we met onze server alleen informatie (HTTP responses) naar de client gestuurd. Een eenzijdige conversatie. We gaan nu ook gegevens ontvangen van onze gebruikers, bijvoorbeeld uit formulieren die ze invullen. Denk aan een fornulier om een nieuw account aan te maken, in te loggen, je profiel bij te werken, etc.
