@@ -1,6 +1,9 @@
-# Les 3.2 Formulieren
+# Les 3.2 Login met POST
 
-Login op basis van JSON-bestand
+## Login met POST
 
-- plain text
-- hashed password
+- Login formulier met POST
+
+## Backend verdieping
+
+pt-les-3-2-backend.md
