@@ -10,7 +10,7 @@
 
   - Instructie feedbacksessie
   - Login met POST
-  - Verdieping backend: Advanced routing, formulieren verwerken
+  - Verdieping backend: formulieren verwerken en database
 
 - Les 3.3 [GW] Groepswerk
 - Les 3.4 [FB] Feedbacksessie
