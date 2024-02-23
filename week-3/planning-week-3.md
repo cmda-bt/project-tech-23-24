@@ -9,7 +9,6 @@
 - Les 3.2 [WG]
 
   - Instructie feedbacksessie
-  - Login met POST
   - Verdieping backend: formulieren verwerken en database
 
 - Les 3.3 [GW] Groepswerk
