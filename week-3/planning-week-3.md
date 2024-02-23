@@ -9,7 +9,7 @@
 - Les 3.2 [WG]
 
   - Instructie feedbacksessie
-  - Verdieping backend: formulieren verwerken en database
+  - Verdieping backend: formulieren verwerken met Node.js en database
   - Formulieren verwerken
 
 - Les 3.3 [GW] Groepswerk
