@@ -10,7 +10,7 @@ De uitwerking van deze opdracht is verschillend voor de front-enders en de back-
 
 We gaan nu een stuk JavaScript toevoegen aan je nieuwe formulier om te zorgen dat de ingevulde gegevens voor het nieuwe account ook worden opgeslagen door de Data API. 
 
-1. Schrijf een JavaScript functie die wordt geactiveerd zodra de gebruiker het formulier verstuurd. Doe dit door een onClick event toe te voegen aan de submit button.
+1. Schrijf een JavaScript functie die wordt geactiveerd zodra de gebruiker het registratieformulier verstuurd. Doe dit door een onClick event toe te voegen aan de submit button.
 2. Gebruik in je JavaScript functie de Fetch API om je nieuwe gebruiker op te laten slaan door de Data API. Hier komen een aantal nieuwe aspecten bij kijken. Bekijk de [documentatie over Fetch](https://developer.mozilla.org/en-US/docs/Web/API/fetch) om te zien hoe je deze nieuwe opties kunt toevoegen.
      * tot nu toe heb je met Fetch HTTP GET requests gedaan. Nu willen we een HTTP POST request doen. We zullen dus de request method moeten aangeven bij de aanroep van Fetch.
      * Het opslaan van gegevens via een API is 'gevaarlijker' dan alleen het uitlezen van gegevens. Je krijgt daarom nu te maken met een extra beveiling, de zogenaamde Cross-Origin Resource Sharing, oftewel CORS. Je zult nu bij de aanroep van Fetch de mode CORS moeten aangeven.
@@ -18,7 +18,7 @@ We gaan nu een stuk JavaScript toevoegen aan je nieuwe formulier om te zorgen da
 3. Het is een goed idee om nu te controleren of je nieuwe gebruiker goed is opgeslagen. Dit kun je doen door in de browser met tabbed postman een actuele lijst op te vragen van alle gebruikers uit de Data API. Staat de nieuwe gebruiker er tussen en kloppen alle gegevens?
 4. Kijk tenslotte of je nu het inlogformulier uit de vorige les kunt gebruiken om in te loggen als je nieuwe gebruiker
 
-**Formulier verwerken voor de BACK_ENDERS**
+**Formulier verwerken voor de BACK-ENDERS**
 
 Meer informatie om deze opdracht te kunnen maken, krijg je vandaag tijdens de backend verdiepingsles. Daarna kun je je formulier om nieuwe accounts te registeren werkend krijgen, door de onderstaande stappen te volgen. Dit is een uitgebreider stappenplan dan voor de front-enders, omdat we eerst het inlogformulier uit de vorige les gaan overzetten naar onze backend server.
 
