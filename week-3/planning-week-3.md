@@ -10,6 +10,7 @@
 
   - Instructie feedbacksessie
   - Verdieping backend: formulieren verwerken en database
+  - Formulieren verwerken
 
 - Les 3.3 [GW] Groepswerk
 - Les 3.4 [FB] Feedbacksessie
