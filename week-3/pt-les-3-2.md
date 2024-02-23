@@ -6,7 +6,7 @@ Bij deze opdracht gaan we verder met het formulier wat je hebt gemaakt voor het 
 
 De uitwerking van deze opdracht is verschillend voor de front-enders en de back-enders. Volg hieronder het stappenplan voor jouw verdieping.
 
-**Formulier verwerken in de front-end**
+**Formulier verwerken voor de FRONT-ENDERS**
 
 We gaan nu een stuk JavaScript toevoegen aan je nieuwe formulier om te zorgen dat de ingevulde gegevens voor het nieuwe account ook worden opgeslagen door de Data API. 
 
@@ -18,9 +18,9 @@ We gaan nu een stuk JavaScript toevoegen aan je nieuwe formulier om te zorgen da
 3. Het is een goed idee om nu te controleren of je nieuwe gebruiker goed is opgeslagen. Dit kun je doen door in de browser met tabbed postman een actuele lijst op te vragen van alle gebruikers uit de Data API. Staat de nieuwe gebruiker er tussen en kloppen alle gegevens?
 4. Kijk tenslotte of je nu het inlogformulier uit de vorige les kunt gebruiken om in te loggen als je nieuwe gebruiker
 
-**Formulier verwerken in de back-end**
+**Formulier verwerken voor de BACK_ENDERS**
 
-Meer informatie om deze opdracht te kunnen maken, krijg je vandaag tijdens de backend verdiepingsles. Daarna kun je je formulier om nieuwe accounts te registeren werkend krijgen door de onderstaande stappen te volgen. Dit is een iets uitgebreide stappenplan dan voor de front-enders, omdat we eerst het inlogformulier uit de vorige les gaan overzetten naar onze backend server.
+Meer informatie om deze opdracht te kunnen maken, krijg je vandaag tijdens de backend verdiepingsles. Daarna kun je je formulier om nieuwe accounts te registeren werkend krijgen, door de onderstaande stappen te volgen. Dit is een uitgebreider stappenplan dan voor de front-enders, omdat we eerst het inlogformulier uit de vorige les gaan overzetten naar onze backend server.
 
 Het onderstaande is best een uitgebreide opdracht. Neem er rustig de tijd voor, het hoeft niet in één keer af. Onthoud ook dat deze oefening bedoeld is om de techniek in de vingers te krijgen. De formulieren en bevestgingspagina's mogen er voor nu best simpel uitzien. En als je een gebruiker met twee eigenschappen in de database weet op te slaan, kun je het in principe ook met 10 eigenschappen. Dus begin klein.
 
