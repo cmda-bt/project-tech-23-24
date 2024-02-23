@@ -15,13 +15,13 @@ We gaan vandaag verder aan de slag met optie 2. Hierbij vult de gebruiker een fo
 
 **Opdracht: Formulier posten**
 
-Breid je node.js server uit met code om een gepost formulier te verwerken:
+Breid je node.js server uit met code om een gepost formulier te verwerken. Je kunt hiervoor het inlogformulier uit de vorige les gebruiken, als je daaruit eerst de (front-end) JavaScript weghaalt. We gaan deze functionaliteit nu immers in de back-end bouwen. 
 1. Maak in je node.js server een route en een view om je formulier te tonen
 2. Geef het formulier een action en de method POST
 3. Maak een route om de POST request af te handelen als het formulier wordt verstuurd
 4. Maak een view om een HTTP response op de POST request te sturen. Laat in deze view de ontvangen formulier data zien. De ingevulde formulier velden zijn beschikbaar als eigenschappen van **req.body** als je in Express de juiste middleware hebt aangezet met ```app.use(express.urlencoded({extended: true}))```
 
-Als dit gelukt is, kun je zien dat de verstuurde formulier data op de server is aangekomen. Op dit moment wordt deze daar nog niet bewaard. Daarvoor hebben we de volgende stap nodig: het opslaan van gegevens in een database.
+Als dit gelukt is, kun je zien dat de verstuurde formulier data op de server is aangekomen. Op dit moment wordt deze daar nog niet bewaard. Daarvoor hebben we de volgende stap nodig: het maken van een verbinding met een database.
 
 Tips:
 * Begin klein. Kijk eens of je een formulier met 1 input veld aan de praat kunt krijgen. Daarna kun je het altijd nog uitbreiden met meer. Bouw je werk stap voor stap op.
@@ -42,7 +42,7 @@ Volg de instructies in de officiele [MongoDB start with guide](https://www.mongo
 2. Create a cluster
 3. Add a database user
 4. Configure a network connection
-5. Load sample data
+5. Load sample data (optioneel, misschien vind je het fijner zelf testdata aan te maken die past bij je eigen project)
 6. Get connection string
 
 Bij stap 4 geef je aan vanaf welke IP adressen je node.js server straks verbinding mag maken met de database. Je kunt hier je huidige IP-adres toevoegen, maar als je op verschillende plekken werkt met een laptop, zal je IP-adres ook steeds veranderen. Op de HvA krijg je bijvoorbeeld elke keer een ander IP-adres toegewezen als je inlogt op Eduroam. Je kunt alle HvA adressen toevoegen met een [*subnetmask*](https://www.youtube.com/watch?v=yK__SdS2meo) door als IP-adres ```145.0.0.0/8``` toe te voegen. Voeg daarnaast ook je IP-adres thuis toe en eventueel andere adressen die je wilt gebruiken. Als je node.js server geen verbinding wil maken met de database, is het altijd goed om even te checken wat je [huidige IP-adres](https://showip.net/) is en dit toe te voegen aan de whitelist.
