@@ -21,22 +21,22 @@ const { MongoClient, ServerApiVersion, ObjectId, CommandStartedEvent } = require
 const uri = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@${process.env.DB_HOST}/${process.env.DB_NAME}?retryWrites=true&w=majority`
 // Create a MongoClient
 const client = new MongoClient(uri, {
-    serverApi: {
-      version: ServerApiVersion.v1,
-      strict: true,
-      deprecationErrors: true,
-    }
+    serverApi: {
+      version: ServerApiVersion.v1,
+      strict: true,
+      deprecationErrors: true,
+    }
 })
 
 // Try to open a database connection
 client.connect()
-    .then((res) => {
-        console.log('Database connection established')
-    })
-    .catch((err) => {
-        console.log(`Database connection error - ${err}`)
-        console.log(`For uri - ${uri}`)
-    })
+  .then((res) => {
+    console.log('Database connection established')
+  })
+  .catch((err) => {
+    console.log(`Database connection error - ${err}`)
+    console.log(`For uri - ${uri}`)
+  })
 
 // A sample route, replace this with your own routes
 app.get('/', (req, res) => {
