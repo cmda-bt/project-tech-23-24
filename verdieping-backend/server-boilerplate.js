@@ -1,4 +1,6 @@
 // dit is een boilerplate voor een node.js webserver met alle basis die je nodig hebt om je webserver aan de praat te krijgen
+// deze boilerplate is geen werkende webserver, maar een overzicht van de verschillende codefragmenten die je nodig hebt
+// kopieer deze dus niet integraal, maar zoek de stukjes die je nodig hebt en pas ze aan, zodat ze werken voor jouw project
 
 // Add info from .env file to process.env
 require('dotenv').config() 
@@ -16,7 +18,7 @@ app
 // Use MongoDB
 const { MongoClient, ServerApiVersion, ObjectId, CommandStartedEvent } = require('mongodb')
 // Construct URL used to connect to database from info in the .env file
-const uri = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@${process.env.DB_HOST}/${process.env.DB_NAME}?retryWrites=true&w=majority`
+const uri = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@${process.env.DB_HOST}/${process.env.DB_NAME}?retryWrites=true&w=majority`
 // Create a MongoClient
 const client = new MongoClient(uri, {
     serverApi: {
