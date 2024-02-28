@@ -4,6 +4,7 @@
 
 Leer meer over formulieren, soorten inputs en hun attributen door het volgende materiaal te bestuderen:
 * 🎦 [Bekijk een video over formulieren](https://dlo.mijnhva.nl/d2l/le/content/536505/viewContent/1996729/View)
+* De belangrijkste info uit bovenstaande video is ook terug te vinden in onze [kennisbank](https://bnieskens.notion.site/Formulieren-9265d336e2954c71be6be4ab847f8fcc)
 * Learn [Web Forms](https://developer.mozilla.org/en-US/docs/Learn/Forms) op MDN. Lees de hoofdstukken:
   * Introductory guides
   * The different form controls
