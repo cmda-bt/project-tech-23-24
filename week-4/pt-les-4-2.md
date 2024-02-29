@@ -22,5 +22,11 @@ Tenslotte is het een goed moment om eens stil te staan bij de vraag hoe je de co
 (eigen onderzoek)
 ## Coding standards
 ### Clean code
+https://github.com/ryanmcdermott/clean-code-javascript
+
 ### ES6
+* Var, let & const
+* arrow functions
+* to puntkomma or not to puntkomma
+
 ### Linters
