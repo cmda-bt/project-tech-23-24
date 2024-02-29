@@ -8,3 +8,4 @@ Na het doorlopen van deze les, zou je hier moeten staan:
 * Je server geeft een *404 error* als een niet bestaande pagina wordt opgevraagd
 * Je server is in staat informatie uit de *database* op te halen en te tonen in een view.
 * Je server is in staat informatie uit een ingevuld *formulier* op te slaan in de database
+* Je inloggegevens voor de database staan in een *.env* file en dat file heb je toegevoegd aan je *.gitignore*
