@@ -1,5 +1,9 @@
 # Les 4.2 Frontend optimalisatie
-- responsive
-- progressive enhancement/graceful degredation (eigen onderzoek)
-- lazy load .
-- clean code (coding principles)
+## GitHub voor teams
+## Responsive
+## Progressive enhancement / graceful degredation
+(eigen onderzoek)
+## Coding standards
+### Clean code
+### ES6
+### Linters
