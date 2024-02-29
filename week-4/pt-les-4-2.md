@@ -18,7 +18,7 @@ Tenslotte is het een goed moment om eens stil te staan bij de vraag hoe je de co
 
 
 ## Responsive
-## Progressive enhancement / graceful degredation
+## Progressive enhancement / graceful degradation
 (eigen onderzoek)
 ## Coding standards
 ### Clean code
