@@ -30,13 +30,15 @@ https://github.com/ryanmcdermott/clean-code-javascript
 * to puntkomma or not to puntkomma
 
 ### Linters
-Er bestaan allerlei tools die je kunnen helpen 'nette' code te schrijven. Je hebt misschien al gewerkt met een *formatter* als Prettier, die help code netjes te formatteren. Met een *linter* kun je nog een stap verder gaan, deze controleert je code ook op inhoudelijke fouten. Er bestaan verschillende Linters. Tijdens dit project gaan we oefenen met **ESLint**
+Er bestaan allerlei tools die je kunnen helpen 'nette' code te schrijven. Je hebt misschien al gewerkt met een *formatter* als Prettier, die helpt code netjes te formatteren. Met een *linter* kun je nog een stap verder gaan, deze controleert je code ook op inhoudelijke fouten. Er bestaan verschillende Linters. Tijdens dit project gaan we oefenen met **ESLint**.
 
 **Opdracht: ESLint**
 
 1. Denk eerst na over de coding standards die je wilt gebruiken. Tijdens het installeren, moet je hierover namelijk een aantal vragen beantwoorden. Het is later altijd nog mogelijk je keuzes te wijzigen.
 2. Installeer ESLint in de folder van je project volgens de instructies op [Getting Started with ESLint](https://eslint.org/docs/latest/use/getting-started)
-3. Als alles goed is gegaan, heeft ESLint in de folder van je project een configuratiefile gemaakt met de naam ```.eslintrc.*``` Afhankelijk van je keuze is dit een javascript, JSON, of YAML bestand. Als je later je keuzes nog wilt aanpassen, kun je wijzigingen aanbrengen in dit bestand of nog een keer opnieuw de configuratie doorlopen
+3. Als alles goed is gegaan, heeft ESLint in de folder van je project een configuratiefile gemaakt met de naam ```.eslintrc.*``` Afhankelijk van je keuze is dit een JavaScript, JSON, of YAML bestand. Als je later je keuzes nog wilt aanpassen, kun je wijzigingen aanbrengen in dit bestand of nog een keer opnieuw de configuratie doorlopen
 4. Je kunt ervoor kiezen om je  ```.eslintrc.*``` configuratiefile toe te voegen aan je ```.gitignore```, want feitelijk is dit geen onderdeel van je project. Maar als je als team samenwerkt, kun je er ook voor kiezen de configuratie juist wel aan je repository toe te voegen, want dan werken jullie allemaal volgens dezelfde standaard
 5. Als je configuratie voltooid is, gebruik dan ESLint om je eigen JavaScript code te *linten*. Volg ook hiervoor de instructies op Getting Started with ESLint.
 6. Je kunt ESLint ook als extensie toevoegen in VSCode. Je ziet dan direct alle problemen in je editor en hoeft niet apart ESLint te gebruiken vanuit je Terminal. Let er op dat deze extensie alleen werkt, als je eerst ESLint hebt geinstalleerd en geconfigureerd volgens bovenstaande stappen.
+
+Pro-tip: je hebt gemerkt dat je tijdens de configuratie van ESLint hebt moeten aangeven of je code draait op Node.js (en dan waarschijnlijk ```require``` gebruikt om modules in te laden) of in de browser (met ```import``` statements). Je kunt in aparte mappen van je project ook verschillende ```.eslintrc.*``` configuratiebestanden maken. In het ene mapje maak je dan regels om je frontend code te checken, en in een ander mapje kun je regels plaatsen voor je back-end code.
