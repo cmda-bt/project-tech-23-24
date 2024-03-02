@@ -16,7 +16,7 @@ app
   .set('views', 'view')                      // And tell it the views can be found in the directory named view
 
 // Use MongoDB
-const { MongoClient, ServerApiVersion, ObjectId, CommandStartedEvent } = require('mongodb')
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb')
 // Construct URL used to connect to database from info in the .env file
 const uri = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@${process.env.DB_HOST}/${process.env.DB_NAME}?retryWrites=true&w=majority`
 // Create a MongoClient
