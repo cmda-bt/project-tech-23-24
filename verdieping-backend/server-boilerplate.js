@@ -30,7 +30,7 @@ const client = new MongoClient(uri, {
 
 // Try to open a database connection
 client.connect()
-  .then((res) => {
+  .then(() => {
     console.log('Database connection established')
   })
   .catch((err) => {
