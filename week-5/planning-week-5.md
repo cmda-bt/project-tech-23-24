@@ -8,5 +8,3 @@
   - Verdieping backend: File uploads en sessions
 - Les 5.3 [GW] Groepswerk
 - Les 5.4 [FB] Feedbacksessie
-
-test
