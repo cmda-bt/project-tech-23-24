@@ -81,3 +81,6 @@ Lees de onderstaande artikelen:
 - [The Legal Side of Open Source](https://opensource.guide/legal/)
 
 Opdracht: kies nu een eigen License voor je project en voeg deze toe aan je repo. Gebruik eventueel [choosealicence.com](https://choosealicense.com/) om je te helpen bij je keuze.
+
+## 12. Bronnen
+Roger Dudler heeft een [praktisch overzicht](https://rogerdudler.github.io/git-guide/) gemaakt voor Git-beginners. 
