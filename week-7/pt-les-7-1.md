@@ -18,7 +18,7 @@ Welke van de gevonden opties zijn nuttig en haalbaar om in je eigen site te impl
 
 ## Build tooling
 Onderzoek of je build tooling kunt gebruiken om terugkerende taken in je project te automatiseren. Gebruik onderstaande resources om kennis en inspiratie op te doen:
-* [NPM scripts](https://docs.npmjs.com/cli/v10/using-npm/scripts)
+* [NPM scripts](https://dev.to/paulasantamaria/mastering-npm-scripts-2chd)
 * Plaatjes optimaliseren met [Imagemin](https://github.com/imagemin/imagemin) in Node of de [Imagemin command line](https://github.com/imagemin/imagemin-cli)
 * Frontend JS minifyen met [Uglify.js](https://www.npmjs.com/package/uglify-js)
 * Stylesheets organiseren met [SASS](https://sass-lang.com/)
